@@ -1,0 +1,122 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=30;
+	taxlabels
+	'gi|5101901|emb|AJ241237.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_309938d'
+	'gi|5101897|emb|AJ241235.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_309938b'
+	'gi|5101877|emb|AJ241225.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_309938'
+	'gi|5101905|emb|AJ241239.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_309938f'
+	'gi|5101899|emb|AJ241236.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_309938c'
+	'gi|5101903|emb|AJ241238.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_309938e'
+	'gi|5101895|emb|AJ241234.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_309938a'
+	'gi|5101887|emb|AJ241230.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_302928c'
+	'gi|5101889|emb|AJ241231.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_302928d'
+	'gi|5101883|emb|AJ241228.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_302928a'
+	'gi|5101891|emb|AJ241232.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_302928e'
+	'gi|5101885|emb|AJ241229.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_302928b'
+	'gi|5101893|emb|AJ241233.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_302928f'
+	'gi|5101875|emb|AJ241224.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_302928'
+	'gi|5101915|emb|AJ241244.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_904928e'
+	'gi|5101907|emb|AJ241240.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_904928a'
+	'gi|5101919|emb|AJ241246.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_904928g'
+	'gi|5101909|emb|AJ241241.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_904928b'
+	'gi|5101879|emb|AJ241226.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_904928'
+	'gi|5101913|emb|AJ241243.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_904928d'
+	'gi|5101911|emb|AJ241242.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_904928c'
+	'gi|5101921|emb|AJ241247.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_904928h'
+	'gi|5101925|emb|AJ241249.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_903938b'
+	'gi|5101923|emb|AJ241248.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_903938a'
+	'gi|5101881|emb|AJ241227.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_903938'
+	'gi|5101931|emb|AJ241252.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_903938e'
+	'gi|5101929|emb|AJ241251.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_903938d'
+	'gi|5101917|emb|AJ241245.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_904928f'
+	'gi|5101927|emb|AJ241250.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_903938c'
+	'gi|606399|gb|L38697.1|BVDGP53SGP Bovine viral diarrhea virus surface glycoprotein (gp53) gene partial cds'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((((((((((('gi|5101901|emb|AJ241237.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_309938d':0.00302319,'gi|5101897|emb|AJ241235.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_309938b':0.00437168):4.939E-5,'gi|5101877|emb|AJ241225.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_309938':-7.336E-5):3.809E-5,'gi|5101905|emb|AJ241239.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_309938f':-3.809E-5):0.0010042,'gi|5101899|emb|AJ241236.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_309938c':4.6896E-4):9.905E-4,'gi|5101903|emb|AJ241238.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_309938e':4.6837E-4):0.00275766,'gi|5101895|emb|AJ241234.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_309938a':0.00454915):0.00141169,('gi|5101887|emb|AJ241230.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_302928c':-2.651E-5,('gi|5101889|emb|AJ241231.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_302928d':0.00149128,'gi|5101883|emb|AJ241228.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_302928a':0.00292732):1.425E-5):9.223E-5):8.0097E-4,('gi|5101891|emb|AJ241232.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_302928e':0.00287515,('gi|5101885|emb|AJ241229.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_302928b':-3.93E-6,('gi|5101893|emb|AJ241233.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_302928f':0.00442537,'gi|5101875|emb|AJ241224.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_302928':-6.74E-6):3.93E-6):6.545E-5):6.3531E-4):6.3503E-4,((((('gi|5101915|emb|AJ241244.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_904928e':0.00150694,'gi|5101907|emb|AJ241240.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_904928a':-4.172E-5):0.00146458,'gi|5101919|emb|AJ241246.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_904928g':0.0029437):2.847E-5,'gi|5101909|emb|AJ241241.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_904928b':0.00143112):3.306E-5,'gi|5101879|emb|AJ241226.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_904928':-3.746E-5):7.7115E-4,((('gi|5101913|emb|AJ241243.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_904928d':0.00143525,'gi|5101911|emb|AJ241242.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_904928c':0.00149332):4.939E-5,'gi|5101921|emb|AJ241247.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_904928h':0.00288346):0.00189046,('gi|5101925|emb|AJ241249.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_903938b':-2.559E-5,('gi|5101923|emb|AJ241248.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_903938a':-4.849E-5,('gi|5101881|emb|AJ241227.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_903938':-9.213E-5,('gi|5101931|emb|AJ241252.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_903938e':0.00448246,'gi|5101929|emb|AJ241251.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_903938d':0.00436755):7.173E-5):4.849E-5):2.559E-5):0.00253808):7.1567E-4):0.00148446):0.00143916,'gi|5101917|emb|AJ241245.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_904928f':4.3346E-4):0.00250266,'gi|5101927|emb|AJ241250.1|_Bovine_viral_diarrhea_virus_E2_glycoprotein_gene_partial_strain_Pe515nc_sequence_903938c':0.00790663):0.09733711,'gi|606399|gb|L38697.1|BVDGP53SGP Bovine viral diarrhea virus surface glycoprotein (gp53) gene partial cds':0.11333814);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#-1;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#-16777216;
+	set appearance.selectionColour=#-2144520576;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
