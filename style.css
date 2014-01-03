@@ -1,0 +1,52 @@
+body
+{
+font-family: sans-serif; 
+background-color: white;
+color:black;
+}
+
+h1
+{
+  font-size:200%;
+  	/*color: #007700;*/
+	/*color: #4b6e03;*/
+	color: #0A75BD;
+}
+
+#s1
+{
+	font-size: 10pt
+}
+
+#nav
+{
+  background: #0A75BD;
+  font-weight: normal;
+  font-size: 12pt;
+  border-top: 1px solid #1B0714;
+  border-bottom: 1px solid #1B0714;
+  border-left: 1px solid #1B0714;
+  border-right: 1px solid #1B0714;
+  margin-left: 0px;
+  padding: 4px 10px 4px 18px;
+}
+
+#nav a
+{
+  color: #FFFF40;
+  background: #0A75BD;
+  margin-left: 7px;
+  margin-right: 7px;
+  padding-right: 20px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-left: none;
+  border-right: 1px solid #385e0f;
+  text-decoration: none;
+}
+
+#nav a:hover
+{
+  color: #D2232A;
+}
+
