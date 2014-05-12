@@ -2,8 +2,10 @@
 # for EPIC
 # S. J. Lycett
 # 27 Oct 2013
+# 2 Dec 2013
 
 library(ape)
+source("Rcode//getEl.R")
 
 ##########################################################
 # helper functions
@@ -66,7 +68,7 @@ if (doSplit1) {
 # Step 2
 # split the non-vaccine and non-patent sequences from step 1 into segments
 
-doSplit2 <- TRUE
+doSplit2 <- FALSE
 if (doSplit2) {
 	path	<- "D://slycett//epic_data//BACKGROUND_SEQUENCES//"
 	path2 <- "AfricanHorseSickness//"
@@ -140,3 +142,95 @@ if (doSplit2) {
 				format="fasta", nbcol=-1, colsep="")
 	}
 }
+
+
+##################################################################################
+# Step 3
+# after manual alignment etc
+# count sequences per segment
+
+doCount <- FALSE
+if (doCount) {
+	path	<- "D://slycett//epic_data//BACKGROUND_SEQUENCES//"
+	path2 <- "AfricanHorseSickness//aligned//"
+	name  <- "africanHorseSickness_segment"
+
+	for (s in 1:10) {
+		sname <- paste(path,path2,name,s,"_al.fas",sep="")
+		seqs  <- read.dna( sname, format="fasta", as.matrix=FALSE)
+		print( c(s,length(seqs)) )
+	}
+
+
+#[1]  1 7
+#[1]  2 55
+#[1]  3 22
+#[1]  4 21
+#[1]  5 63
+#[1]  6 32
+#[1]  7 56
+#[1]  8 44
+#[1]  9 7
+#[1] 10 205
+
+}
+
+##################################################################################
+# Step 4
+# extract sequences with named serotypes to separate files
+
+doSerotypes <- FALSE
+if (doSerotypes) {
+	
+	path	<- "D://slycett//epic_data//BACKGROUND_SEQUENCES//"
+	path2 <- "AfricanHorseSickness//aligned//"
+	path3 <- "AfricanHorseSickness//serotype//"
+	path4 <- "AfricanHorseSickness//unal//"
+	name  <- "africanHorseSickness_segment"
+	fullname <- "africanHorseSickness_sequences_full_info"
+
+	# serotype defined on segment 2
+	s <- 2
+		sname <- paste(path,path2,name,s,"_al.fas",sep="")
+		seqs  <- read.dna( sname, format="fasta", as.matrix=FALSE)
+		taxa  <- attributes(seqs)$names
+		seqs2 <- getSequencesWithTitle(seqs, title="serotype")
+		remain<- getRemainingSeqs(seqs, seqs2)
+		
+		sname2<- paste(path,path3,name,s,"_serotype.fas",sep="")
+		sname3<- paste(path,path3,name,s,"_other.fas",sep="")
+		write.dna( seqs2, file=sname2, format="fasta", nbcol=-1, colsep="")
+		write.dna( remain, file=sname3, format="fasta", nbcol=-1, colsep="")
+
+	# load genbank file
+	gbLines	<- readLines (paste(path,path4,fullname,".gb",sep="") )
+	locusLines	<- grep("LOCUS",gbLines)
+	accnLines	<- grep("ACCESSION", gbLines)
+	endLines	<- grep("//", gbLines)
+
+	s <- 2
+		sname <- paste(path,path2,name,s,"_al.fas",sep="")
+		seqs  <- read.dna( sname, format="fasta", as.matrix=FALSE)
+		taxa  <- attributes(seqs)$names
+		gb_id <- apply(as.matrix(taxa), 1, getEl, ind=4, sep="\\|")
+		gb_id <- gsub("\\.1", "", gb_id)
+		ginds <- unlist(apply(as.matrix(gb_id), 1, grep, gbLines[accnLines]))
+		acc_ginds <- accnLines[ginds]
+		loc_ginds <- locusLines[ginds]
+		end_ginds <- endLines[ginds]
+
+		nrecords  <- length(gb_id)
+		for (i in 1:nrecords) {
+			recordLines <- gbLines[loc_ginds[i]:end_ginds[i]]
+			ft_start	<- grep("FEATURES",recordLines)[1]
+			source_start<- grep("source",recordLines)[1]
+			seq_start   <- grep("CDS",recordLines)[1]
+			strain_sero <- c(grep("serotype",recordLines),grep("strain",recordLines))
+			jj		<- which((strain_sero >= source_start) & (strain_sero < seq_start))
+			strain_sero <- recordLines[ strain_sero[jj] ][1]
+			print( paste(gb_id[i],strain_sero) )
+		}
+
+}
+
+
