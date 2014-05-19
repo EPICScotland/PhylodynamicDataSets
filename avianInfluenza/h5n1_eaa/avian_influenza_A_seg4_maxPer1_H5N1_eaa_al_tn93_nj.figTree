@@ -1,0 +1,330 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=238;
+	taxlabels
+	'H5N1_Avian_ans_Domestic_Europe_Germany_A/domestic_duck/Germany/R1779/2007|2007.45205479452'[&!color=#-16737793]
+	'H5N1_Avian_gal_Domestic_Europe_Germany_A/chicken/Germany/R3294/2007|2007.45205479452'[&!color=#-16737793]
+	'H5N1_Avian_gal_Domestic_Europe_Poland_A/chicken/Poland/R3248/2007|2007.45205479452'[&!color=#-16737793]
+	'H5N1_Avian_ans_Wild_Europe_Germany_A/mute_swan/Germany/R1359/2007|2007.45205479452'[&!color=#-16737793]
+	'H5N1_Avian_gal_Domestic_Asia_Russia_A/chicken/Krasnodar/300/07|2007.67671232877'
+	'H5N1_Avian_ans_Wild_Asia_Russia_A/Cygnus_cygnus/Krasnodar/329/07|2007.67945205479'
+	'H5N1_Avian_fal_Wild_Asia_Kuwait_A/saker_falcon/Kuwait/0286/2007|2007.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_Kuwait_A/chicken/Kuwait/KISR7/2007|2007.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_India_A/duck/Tripura/103597/2008|2008.28493150685'
+	'H5N1_Avian_gal_Domestic_Asia_Bhutan_A/chicken/Bhutan/248015/2010|2010.13424657534'
+	'H5N1_Avian_gal_Domestic_Asia_India_A/chicken/West_Bengal/193936/2009|2009.36712328767'
+	'H5N1_Avian_gal_Domestic_Asia_India_A/chicken/India/82544/2008|2008.05753424658'
+	'H5N1_Avian_gal_Domestic_Asia_India_A/chicken/West_Bengal/239020/2010|2010.0301369863'
+	'H5N1_Avian_ans_Domestic_Asia_Russia_A/duck/Omsk/1822/2006|2006.53424657534'
+	'H5N1_Avian_acc_Wild_Asia_Japan_A/mountain_hawk-eagle/Kumamoto/1/07|2007.45205479452'
+	'H5N1_Avian_ans_Wild_Asia_Mongolia_A/common_goldeneye/Mongolia/12/2006|2006.36712328767'
+	'H5N1_Avian_ans_Wild_Asia_Russia_A/grebe/Tyva/Tyv06-2/06|2006.47671232877'
+	'H5N1_Avian_gal_Domestic_Asia_Afghanistan_A/chicken/Afghanistan/1573-92/2006|2006.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_Pakistan_A/chicken/Sihala/NARC3303.4/2006|2006.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_Russia_A/chicken/Reshoty/02/2006|2006.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_Russia_A/chicken/Russia_Krasnodar/2/2007|2007.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_India_A/chicken/Nandurbar/7979/2006|2006.12328767123'
+	'H5N1_Avian_gal_Domestic_Asia_Russia_A/chicken/Krasnodar/123/06|2006.45205479452'
+	'H5N1_Avian_ans_Wild_Asia_Iran_A/Cygnus_cygnus/Iran/754/2006|2006.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_Russia_A/chicken/Domodedovo/MK/2007|2007.03561643836'
+	'H5N1_Avian_gal_Domestic_Asia_Russia_A/chicken/Moscow/2/2007|2007.11780821918'
+	'H5N1_Avian_gal_Domestic_Asia_Russia_A/chicken/Rostov/22-1/2007|2007.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_Russia_A/muscovy_duck/Rostov-on-Don/51/2007|2007.95342465753'
+	'H5N1_Avian_gal_Domestic_Asia_Russia_A/chicken/Rostov-on-Don/35/2007|2007.95068493151'
+	'H5N1_Avian_pas_Wild_Asia_Russia_A/pigeon/Rostov-on-Don/6/2007|2007.95068493151'
+	'H5N1_Avian_gal_Domestic_Asia_Russia_A/chicken/Omsk/14/05|2005.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_Russia_A/chicken/Tula/4/05|2005.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Liaoning/23/2005|2005.45205479452'
+	'H5N1_Avian_ans_Wild_Asia_China_A/wild_duck/Liaoning/8/2006|2006.45205479452'
+	'H5N1_Avian_pas_Wild_Asia_China_A/pied_magpie/Liaoning/7/2006|2006.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_Russia_A/goose/Suzdalka/10/05|2005.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_Russia_A/chicken/Suzdalka/06/05|2005.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_Russia_A/duck/Novosibirsk/56/2005|2005.45205479452'
+	'H5N1_Avian_ans_Domestic_Africa_Cote_dIvoire_A/duck/Cote_dIvoire/1787-18/2006|2006.45205479452'[&!color=#-26368]
+	'H5N1_Avian_gal_Domestic_Africa_Cote_dIvoire_A/turkey/Ivory_Coast/4372-2/2006|2006.95342465753'[&!color=#-26368]
+	'H5N1_Avian_gal_Domestic_Africa_Sudan_A/chicken/Sudan/2115-9/2006|2006.45205479452'[&!color=#-26368]
+	'H5N1_Avian_gal_Domestic_Asia_Russia_A/chicken/Kurgan/05/2005|2005.45205479452'
+	'H5N1_Avian_ans_Wild_Asia_Mongolia_A/bar-headed_goose/Mongolia/1/05|2005.53424657534'
+	'H5N1_Avian_ans_Domestic_Europe_Hungary_A/goose/Hungary/14756/2006|2006.42739726027'[&!color=#-16737793]
+	'H5N1_Avian_fal_Wild_Asia_Saudi_Arabia_A/falcon/Saudi_Arabia/D1795/2005|2005.45205479452'
+	'H5N1_Avian_ans_Wild_Europe_Italy_A/cygnus_olor/Italy/808/2006|2006.45205479452'[&!color=#-16737793]
+	'H5N1_Avian_ans_Wild_Europe_Slovenia_A/swan/Slovenia/760/2006|2006.45205479452'[&!color=#-16737793]
+	'H5N1_Avian_ans_Domestic_Africa_Egypt_A/duck/Egypt/D2br10/2007|2007.03835616438'[&!color=#-26368]
+	'H5N1_Avian_ans_Domestic_Africa_Egypt_A/duck/Egypt/0871/2008|2008.13698630137'[&!color=#-26368]
+	'H5N1_Avian_gal_Domestic_Africa_Egypt_A/chicken/Egypt/2253-1/2006|2006.45205479452'[&!color=#-26368]
+	'H5N1_Avian_ans_Domestic_Africa_Egypt_A/duck/Egypt/2253-3/2006|2006.45205479452'[&!color=#-26368]
+	'H5N1_Avian_gal_Domestic_Africa_Egypt_A/chicken/Egypt/CL6/2007|2007.2'[&!color=#-26368]
+	'H5N1_Avian_gal_Domestic_Africa_Egypt_A/chicken/Giza/CAI7/2008|2008.16164383562'[&!color=#-26368]
+	'H5N1_Avian_gal_Domestic_Africa_Egypt_A/chicken/Sharkia/CAI3/2009|2009.66575342466'[&!color=#-26368]
+	'H5N1_Avian_ans_Domestic_Africa_Egypt_A/duck/El_Fayoum/CAI1/2010|2010.16164383562'[&!color=#-26368]
+	'H5N1_Avian_gal_Domestic_Africa_Egypt_A/chicken/Egypt/Q1185/2010|2010.45205479452'[&!color=#-26368]
+	'H5N1_Avian_ans_Wild_Asia_Russia_A/grebe/Novosibirsk/29/2005|2005.45205479452'
+	'H5N1_Avian_gal_Domestic_Africa_Nigeria_A/chicken/Nigeria/1047-30/2006|2006.45205479452'[&!color=#-26368]
+	'H5N1_Avian_str_Wild_Africa_Nigeria_A/ostrich/Nigeria/1047-25/2006|2006.45205479452'[&!color=#-26368]
+	'H5N1_Avian_ans_Domestic_Africa_Niger_A/duck/Niger/914/2006|2006.45205479452'[&!color=#-26368]
+	'H5N1_Avian_gal_Domestic_Asia_Saudi_Arabia_A/turkey/Saudi_Arabia/6732-6/2007|2007.45205479452'
+	'H5N1_Avian_fal_Wild_Asia_Saudi_Arabia_A/falcon/Saudi_Arabia/D1936/2007|2007.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_Russia_A/goose/Krasnoozerskoye/627/2005|2005.45205479452'
+	'H5N1_Avian_ans_Wild_Europe_Germany_A/swan/Germany/R65/2006|2006.12328767123'[&!color=#-16737793]
+	'H5N1_Avian_ans_Wild_Europe_Croatia_A/cygnus_olor/Croatia/1/2005|2005.45205479452'[&!color=#-16737793]
+	'H5N1_Avian_ans_Wild_Europe_Hungary_A/mute_swan/Hungary/3472/2006|2006.09863013699'[&!color=#-16737793]
+	'H5N1_Avian_ans_Wild_Asia_Russia_A/Cygnus_olor/Astrakhan/Ast05-2-10/2005|2005.90136986301'
+	'H5N1_Avian_ans_Wild_Asia_Russia_A/Cygnus_olor/Caspian_Sea/2006|2006.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_Russia_A/duck/Kurgan/08/2005|2005.45205479452'
+	'H5N1_Avian_pel_Wild_Asia_China_A/great_cormorant/Tibet/12/2006|2006.45205479452'
+	'H5N1_Avian_ans_Wild_Asia_China_A/bar-headed_goose/Qinghai/1-HVRI/2006|2006.45205479452'
+	'H5N1_Avian_ans_Wild_Asia_China_A/bar-headed_goose/Tibet/8/2006|2006.45205479452'
+	'H5N1_Avian_ans_Wild_Asia_China_A/bar-headed_goose/Qinghai/3/2005|2005.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Jiangxi/25/2004|2004.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/duck/Hubei/wp/2003|2003.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Guangdong/174/04|2004.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/goose/Jilin/hb/2003|2003.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_South_Korea_A/duck/Korea/ESD1/03|2003.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_Japan_A/chicken/Yamaguchi/7/2004|2004.45205479452'
+	'H5N1_Avian_pas_Wild_Asia_Japan_A/crow/Osaka/102/2004|2004.45205479452'
+	'H5N1_Avian_ans_Wild_Asia_China_A/mallard/Huadong/Y/2003|2003.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/duck/Guangxi/13/2004|2004.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Guangxi/12/2004|2004.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_Indonesia_A/duck/East_Java/UT1107/2004|2004.64657534247'
+	'H5N1_Avian_gal_Domestic_Asia_Indonesia_A/chicken/East_Java/UT1006/2003|2003.87123287671'
+	'H5N1_Avian_gal_Domestic_Asia_Indonesia_A/chicken/East_Java/UT6031/2007|2007.03835616438'
+	'H5N1_Avian_gal_Domestic_Asia_Indonesia_A/quail/Yogjakarta/UT1023/2004|2004.03835616438'
+	'H5N1_Avian_gal_Domestic_Asia_Indonesia_A/chicken/Sulawesi_Selatan/UT2093/2005|2005.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_Indonesia_A/chicken/East_Java/UT6021/2006|2006.87123287671'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/duck/Eastern_China/909/2009|2009.03835616438'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/duck/Shandong/009/2008|2008.95342465753'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Hunan/1/2009|2009.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Shandong/A-1/2009|2009.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Hubei/2856/2007|2007.07671232877'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/duck/Hubei/2911/2007|2007.07671232877'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/domestic_green-winged_teal/Hunan/3450/2006|2006.20273972603'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Hunan/3157/2006|2006.91232876712'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/duck/Anhui/1/06|2006.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/duck/Hubei/49/2005|2005.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/duck/Hubei/Hangmei01/2006|2006.45205479452'
+	'H5N1_Avian_pas_Wild_Asia_China_A/shrike/Tibet/13/2006|2006.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_Laos_A/chicken/Lao/LH1/2010|2010.36712328767'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Sichuan/81/2005|2005.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Hunan/21/2005|2005.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/duck/Eastern_China/108/2008|2008.95342465753'
+	'H5N1_Avian_ans_Wild_Asia_China_A/wild_duck/Shandong/628/2011|2011.28219178082'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/duck/Anhui/56/2005|2005.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/duck/Jiangxi/80/2005|2005.45205479452'
+	'H5N1_Avian_ans_Wild_Asia_China_A/wild_duck/Hunan/021/2005|2005.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Guizhou/7/2008|2008.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_Laos_A/chicken/Laos/P0020/2007|2007.45205479452'
+	'H5N1_Avian_pas_Wild_Asia_Laos_A/pigeon/Laos/P0022/2007|2007.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_Laos_A/duck/Laos/P0127/2007|2007.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_Laos_A/duck/Laos/25/2006|2006.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_Laos_A/Chicken/Laos/Xaythiani_26/2006|2006.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Fujian/1/2007|2007.45205479452'
+	'H5N1_Avian_fal_Wild_Asia_Hong_Kong_A/peregrine_falcon/Hong_Kong/2142/2008|2008.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_Myanmar_A/chicken/Hmawbi/517/2007|2007.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_Laos_A/duck/Lao/9/2010|2010.2'
+	'H5N1_Avian_ans_Domestic_Asia_Viet_Nam_A/duck/Vietnam/G12/2008|2008.03835616438'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/goose/Yunnan/3798/2006|2006.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_Viet_Nam_A/chicken/Hanoi/45/2007|2007.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Tibet/6/2008|2008.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/duck/Hunan/69/2004|2004.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/duck/China/E319-2/03|2003.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Guangdong/1/2005|2005.45205479452'
+	'H5N1_Avian_pel_Wild_Asia_Hong_Kong_A/little_egret/Hong_Kong/8550/2007|2007.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/duck/Zhejiang/2243/2011|2011.12328767123'
+	'H5N1_Avian_ans_Wild_Asia_China_A/wild_duck/Fujian/1/2011|2011.18630136986'
+	'H5N1_Avian_pel_Wild_Asia_Hong_Kong_A/grey_heron/Hong_Kong/1046/2008|2008.45205479452'
+	'H5N1_Avian_pas_Wild_Asia_Hong_Kong_A/magpie_robin/Hong_Kong/1097/2008|2008.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_Russia_A/chicken/Primorje/1/2008|2008.27123287671'
+	'H5N1_Avian_ans_Wild_Asia_Japan_A/whooper_swan/Hokkaido/1/2008|2008.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Hunan/8/2008|2008.87123287671'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/duck/Hunan/3/2007|2007.78630136986'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Hunan/3/2007|2007.78630136986'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/duck/Hunan/8/2008|2008.87123287671'
+	'H5N1_Avian_ans_Wild_Asia_China_A/swan/Shanghai/10/2009|2009.03835616438'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/duck/Hunan/S4030/2011|2011.85479452055'
+	'H5N1_Avian_gal_Domestic_Asia_India_A/chicken/India/CA0302/2011|2011.17534246575'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/goose/Jiangsu/k0403/2010|2010.1095890411'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Jiangsu/k0402/2010|2010.1095890411'
+	'H5N1_Avian_ans_Domestic_Asia_Viet_Nam_A/muscovy_duck/Quang_Ninh/49/2013|2013.35068493151'
+	'H5N1_Avian_ans_Wild_Asia_China_A/wild_duck/Jilin/HF/2011|2011.31232876712'
+	'H5N1_Avian_ans_Wild_Asia_China_A/great_crested-grebe/Qinghai/1/2009|2009.36712328767'
+	'H5N1_Avian_ans_Wild_Asia_Mongolia_A/whooper_swan/Mongolia/1/2010|2010.36712328767'
+	'H5N1_Avian_ans_Wild_Asia_Russia_A/grebe/Tyva/2/2010|2010.47123287671'
+	'H5N1_Avian_ans_Wild_Asia_Mongolia_A/bar-headed_goose/Mongolia/X53/2009|2009.53424657534'
+	'H5N1_Avian_ans_Wild_Asia_Russia_A/grebe/Tyva/3/2009|2009.47123287671'
+	'H5N1_Avian_gal_Domestic_Asia_Japan_A/chicken/Shimane/1/2010|2010.87123287671'
+	'H5N1_Avian_ans_Wild_Asia_Japan_A/mute_swan/Toyama/1/2010|2010.95342465753'
+	'H5N1_Avian_acc_Wild_Asia_South_Korea_A/Eurasian_eagle_owl/Korea/23/2010|2010.90136986301'
+	'H5N1_Avian_gru_Wild_Asia_Japan_A/hooded_crane/Kagoshima/4612J004/2010|2010.45205479452'
+	'H5N1_Avian_gru_Wild_Asia_Japan_A/hooded_crane/Kagoshima/110214-3/2011|2011.45205479452'
+	'H5N1_Avian_fal_Wild_Asia_Japan_A/peregrine_falcon/Aomori/7/2011|2011.2'
+	'H5N1_Avian_ans_Wild_Asia_Japan_A/mandarin_duck/Miyazaki/22M-765/2011|2011.2'
+	'H5N1_Avian_ans_Domestic_Asia_Japan_A/duck/Hokkaido/WZ101/2010|2010.78356164384'
+	'H5N1_Avian_gal_Domestic_Asia_Japan_A/chicken/Aichi/2/2011|2011.12328767123'
+	'H5N1_Avian_ans_Wild_Asia_South_Korea_A/mandarin_duck/Korea/PSC24-24/2010|2010.98904109589'
+	'H5N1_Avian_psi_Wild_Asia_China_A/parrot/Guangdong/C99/2005|2005.08493150685'
+	'H5N1_Avian_ans_Domestic_Asia_Hong_Kong_A/duck/Hong_Kong/821/2002|2002.45205479452'
+	'H5N1_Avian_pel_Wild_Asia_Hong_Kong_A/egret/Hong_Kong/757.2/2003|2003.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_Viet_Nam_A/duck/Soc_Trang/8/2012|2012.66301369863'
+	'H5N1_Avian_gal_Domestic_Asia_Viet_Nam_A/chicken/Soc_Trang/5/2012|2012.45753424658'
+	'H5N1_Avian_gal_Domestic_Asia_Cambodia_A/chicken/Cambodia/083LC/2011|2011.68493150685'
+	'H5N1_Avian_cic_Wild_Asia_Cambodia_A/marabou_stork/Cambodia/TM068/2011|2011.53150684932'
+	'H5N1_Avian_gal_Domestic_Asia_Cambodia_A/chicken/Cambodia/TKCMB5T/2010|2010.07397260274'
+	'H5N1_Avian_ans_Domestic_Asia_Viet_Nam_A/muscovy_duck/Vietnam/OIE-559/2011|2011.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_Viet_Nam_A/Muscovy_duck/Ca_Mau/07-04/2007|2007.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_Viet_Nam_A/Muscovy_duck/Ca_Mau/1185/2006|2006.98904109589'
+	'H5N1_Avian_gal_Domestic_Asia_Viet_Nam_A/chicken/Ca_Mau/1180/2006|2006.98630136986'
+	'H5N1_Avian_ans_Domestic_Asia_Cambodia_A/duck/Cambodia/D14AL/2006|2006.09315068493'
+	'H5N1_Avian_gal_Domestic_Asia_Viet_Nam_A/chicken/Viet_Nam/TG-023/2004|2004.45205479452'
+	'H5N1_Avian_cic_Wild_Asia_Thailand_A/open-billed_stork/Nakhonsawan/BBD3616M/05|2005.45205479452'
+	'H5N1_Avian_cic_Wild_Asia_Thailand_A/openbill_stork/Thailand/VSMU-4-NSN/2004|2004.09589041096'
+	'H5N1_Avian_pas_Wild_Asia_Thailand_A/pigeon/Thailand/VSMU-7-NPT/2004|2004.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_Thailand_A/chicken/Suphanburi/NIAH7540/2004|2004.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_Thailand_A/quail/Nakhon_Pathom/NIAH7562/2005|2005.45205479452'
+	'H5N1_Avian_acc_Wild_Europe_Belgium_A/crested_eagle/Belgium/01/2004|2004.45205479452'[&!color=#-16737793]
+	'H5N1 Avian ans Domestic Asia Thailand A/duck/Ang Thong/71(2)/2004|2004.45205479452'
+	'H5N1_Avian_pas_Wild_Asia_Thailand_A/tree_sparrow/Rachaburi/VSMU-16-RBR/2005|2005.45205479452'
+	'H5N1_Avian_ans_Wild_Asia_Thailand_A/little_grebe/Thailand/Phichit-01/2004|2004.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_Thailand_A/duck/Thailand/TS04/2006|2006.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_Thailand_A/chicken/Thailand/TS03/2006|2006.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_Thailand_A/chicken/Uthaithani/NIAH115067/2008|2008.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_Viet_Nam_A/chicken/Viet_Nam/8/2005|2005.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_Viet_Nam_A/duck/Vietnam/942B/2004|2004.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_Viet_Nam_A/duck/Vietnam/1/2005|2005.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/duck/Guangdong/173/04|2004.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Hunan/41/2004|2004.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Anhui/39/2004|2004.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Gansu/44/2004|2004.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Henan/13/2004|2004.45205479452'
+	'H5N1_Avian_ans_Wild_Asia_China_A/wild_duck/Guangdong/314/2004|2004.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Hubei/327/2004|2004.45205479452'
+	'H5N1_Avian_ans_Wild_Asia_China_A/swan/Guangxi/307/2004|2004.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/duck/Shanghai/xj/2002|2002.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Jilin/hd/2002|2002.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Jilin/9/2004|2004.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_Japan_A/duck/Yokohama/aq10/2003|2003.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/duck/Zhejiang/bj/2002|2002.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Jiangsu/cz1/2002|2002.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_Hong_Kong_A/Duck/Hong_Kong/380.5/2001|2001.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/duck/Guangxi/xa/2001|2001.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Hebei/718/2001|2001.45205479452'
+	'H5N1_Avian_ans_Wild_Asia_Hong_Kong_A/waterfowl/Hong_Kong/378.5/2001|2001.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/goose/Fujian/bb/2003|2003.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_Hong_Kong_A/chicken/Hong_Kong/409.1/2002|2002.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/domestic_green-winged_teal/Hunan/67/2005|2005.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_Myanmar_A/chicken/Pyigyitagon/204/2006|2006.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Xinjiang/53/2005|2005.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Xinjiang/28/2006|2006.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Sheny/0606/2008|2008.42739726027'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Shanxi/10/2006|2006.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Hebei/102/2005|2005.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Henan/A-7/2006|2006.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Ningxia/24/2006|2006.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Liaoning/A-11/2006|2006.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Shandong/A-10/2006|2006.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Liaoning/A-1/2007|2007.45205479452'
+	'H5N1_Avian_ans_Wild_Asia_China_A/mallard/Huadong/hn/2005|2005.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Hebei/A-8/2009|2009.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Huadong/4/2008|2008.95342465753'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Jiangsu/18/2008|2008.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Jilin/ha/2003|2003.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/duck/Shandong/093/2004|2004.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/goose/Guangdong/xb/2001|2001.45205479452'
+	'H5N1_Avian_str_Wild_Asia_China_A/ostrich/Suzhou/097/2003|2003.28767123288'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/duck/Guangxi/12/2003|2003.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Hebei/108/02|2002.45205479452'
+	'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Hubei/wj/1997|1997.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/goose/Guangdong/1/1996|1996.45205479452'
+	'H5N1_Avian_ans_Domestic_Asia_China_A/goose/Guangdong/3/1997|1997.45205479452'
+	'H5N1_Avian_ans_Wild_Europe_Germany_A/teal/Germany/WV632/2005|2005.89863013699'[&!color=#-6710887]
+	'H5N1_Avian_ans_Wild_Europe_Italy_A/mallard/Italy/3401/2005|2005.45205479452'[&!color=#-6710887]
+	'H5N1_Avian_ans_Domestic_Europe_France_A/duck/France/05066b/2005|2005.45205479452'[&!color=#-6710887]
+	'H5N1_Avian_ans_Wild_Asia_Japan_A/mallard/Hokkaido/24/2009|2009.45205479452'[&!color=#-6710887]
+	'H5N1_Avian_ans_Wild_Asia_South_Korea_A/wild_duck/Korea/SNU50-5/2009|2009.73698630137'[&!color=#-6710887]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((((((((((((((((((((((((((((((((((('H5N1_Avian_ans_Domestic_Europe_Germany_A/domestic_duck/Germany/R1779/2007|2007.45205479452'[&!color=#-16737793]:0.00241327,'H5N1_Avian_gal_Domestic_Europe_Germany_A/chicken/Germany/R3294/2007|2007.45205479452'[&!color=#-16737793]:5.3191E-4)[&!color=#-16737793]:5.7926E-4,'H5N1_Avian_gal_Domestic_Europe_Poland_A/chicken/Poland/R3248/2007|2007.45205479452'[&!color=#-16737793]:0.00477025)[&!color=#-16737793]:9.0758E-4,('H5N1_Avian_ans_Wild_Europe_Germany_A/mute_swan/Germany/R1359/2007|2007.45205479452'[&!color=#-16737793]:0.00238672,('H5N1_Avian_gal_Domestic_Asia_Russia_A/chicken/Krasnodar/300/07|2007.67671232877'[&!color=null]:0.0,'H5N1_Avian_ans_Wild_Asia_Russia_A/Cygnus_cygnus/Krasnodar/329/07|2007.67945205479'[&!color=null]:0.0)[&!color=null]:0.00294337)[&!color=#-16737793]:0.00150148)[&!color=#-16737793]:9.5309E-4,'H5N1_Avian_fal_Wild_Asia_Kuwait_A/saker_falcon/Kuwait/0286/2007|2007.45205479452'[&!color=null]:-8.99E-5)[&!color=null]:4.577E-5,'H5N1_Avian_gal_Domestic_Asia_Kuwait_A/chicken/Kuwait/KISR7/2007|2007.45205479452'[&!color=null]:-4.577E-5)[&!color=null]:0.00153259,(('H5N1_Avian_ans_Domestic_Asia_India_A/duck/Tripura/103597/2008|2008.28493150685'[&!color=null]:0.00437581,'H5N1_Avian_gal_Domestic_Asia_Bhutan_A/chicken/Bhutan/248015/2010|2010.13424657534'[&!color=null]:0.0112817)[&!color=null]:0.00306435,('H5N1_Avian_gal_Domestic_Asia_India_A/chicken/West_Bengal/193936/2009|2009.36712328767'[&!color=null]:0.01356318,('H5N1_Avian_gal_Domestic_Asia_India_A/chicken/India/82544/2008|2008.05753424658'[&!color=null]:0.00402159,'H5N1_Avian_gal_Domestic_Asia_India_A/chicken/West_Bengal/239020/2010|2010.0301369863'[&!color=null]:0.01044178)[&!color=null]:0.00117748)[&!color=null]:7.1251E-4)[&!color=null]:0.00296754)[&!color=null]:0.00250346,('H5N1_Avian_ans_Domestic_Asia_Russia_A/duck/Omsk/1822/2006|2006.53424657534'[&!color=null]:5.598E-4,'H5N1_Avian_acc_Wild_Asia_Japan_A/mountain_hawk-eagle/Kumamoto/1/07|2007.45205479452'[&!color=null]:0.00179268)[&!color=null]:0.0010449)[&!color=null]:1.1914E-4,('H5N1_Avian_ans_Wild_Asia_Mongolia_A/common_goldeneye/Mongolia/12/2006|2006.36712328767'[&!color=null]:-6.28E-5,'H5N1_Avian_ans_Wild_Asia_Russia_A/grebe/Tyva/Tyv06-2/06|2006.47671232877'[&!color=null]:0.00360197)[&!color=null]:5.141E-5)[&!color=null]:0.00175482,'H5N1_Avian_gal_Domestic_Asia_Afghanistan_A/chicken/Afghanistan/1573-92/2006|2006.45205479452'[&!color=null]:5.7061E-4)[&!color=null]:1.145E-5,'H5N1_Avian_gal_Domestic_Asia_Pakistan_A/chicken/Sihala/NARC3303.4/2006|2006.45205479452'[&!color=null]:5.9718E-4)[&!color=null]:0.00239321,('H5N1_Avian_gal_Domestic_Asia_Russia_A/chicken/Reshoty/02/2006|2006.45205479452'[&!color=null]:0.00355126,'H5N1_Avian_gal_Domestic_Asia_Russia_A/chicken/Russia_Krasnodar/2/2007|2007.45205479452'[&!color=null]:0.00236991)[&!color=null]:1.336E-5)[&!color=null]:4.572E-5,'H5N1_Avian_gal_Domestic_Asia_India_A/chicken/Nandurbar/7979/2006|2006.12328767123'[&!color=null]:0.00112226)[&!color=null]:4.372E-5,(('H5N1_Avian_gal_Domestic_Asia_Russia_A/chicken/Krasnodar/123/06|2006.45205479452'[&!color=null]:0.00174594,'H5N1_Avian_ans_Wild_Asia_Iran_A/Cygnus_cygnus/Iran/754/2006|2006.45205479452'[&!color=null]:6.0899E-4)[&!color=null]:8.479E-5,(('H5N1_Avian_gal_Domestic_Asia_Russia_A/chicken/Domodedovo/MK/2007|2007.03561643836'[&!color=null]:0.0,'H5N1_Avian_gal_Domestic_Asia_Russia_A/chicken/Moscow/2/2007|2007.11780821918'[&!color=null]:0.0)[&!color=null]:8.682E-4,('H5N1_Avian_gal_Domestic_Asia_Russia_A/chicken/Rostov/22-1/2007|2007.45205479452'[&!color=null]:5.5051E-4,('H5N1_Avian_ans_Domestic_Asia_Russia_A/muscovy_duck/Rostov-on-Don/51/2007|2007.95342465753'[&!color=null]:0.0,('H5N1_Avian_gal_Domestic_Asia_Russia_A/chicken/Rostov-on-Don/35/2007|2007.95068493151'[&!color=null]:0.0,'H5N1_Avian_pas_Wild_Asia_Russia_A/pigeon/Rostov-on-Don/6/2007|2007.95068493151'[&!color=null]:0.0)[&!color=null]:0.0)[&!color=null]:0.00121811)[&!color=null]:0.00208451)[&!color=null]:0.00560751)[&!color=null]:0.00117285)[&!color=null]:0.00173182,(('H5N1_Avian_gal_Domestic_Asia_Russia_A/chicken/Omsk/14/05|2005.45205479452'[&!color=null]:0.0014475,'H5N1_Avian_gal_Domestic_Asia_Russia_A/chicken/Tula/4/05|2005.45205479452'[&!color=null]:0.00388259)[&!color=null]:4.0435E-4,((((('H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Liaoning/23/2005|2005.45205479452'[&!color=null]:0.00357337,'H5N1_Avian_ans_Wild_Asia_China_A/wild_duck/Liaoning/8/2006|2006.45205479452'[&!color=null]:0.01141241)[&!color=null]:5.9239E-4,'H5N1_Avian_pas_Wild_Asia_China_A/pied_magpie/Liaoning/7/2006|2006.45205479452'[&!color=null]:5.5845E-4)[&!color=null]:0.00114884,('H5N1_Avian_ans_Domestic_Asia_Russia_A/goose/Suzdalka/10/05|2005.45205479452'[&!color=null]:0.00178049,'H5N1_Avian_gal_Domestic_Asia_Russia_A/chicken/Suzdalka/06/05|2005.45205479452'[&!color=null]:0.00116363)[&!color=null]:0.00293635)[&!color=null]:4.76E-5,'H5N1_Avian_ans_Domestic_Asia_Russia_A/duck/Novosibirsk/56/2005|2005.45205479452'[&!color=null]:0.00239958)[&!color=null]:9.548E-5,((((('H5N1_Avian_ans_Domestic_Africa_Cote_dIvoire_A/duck/Cote_dIvoire/1787-18/2006|2006.45205479452'[&!color=#-26368]:0.00185259,'H5N1_Avian_gal_Domestic_Africa_Cote_dIvoire_A/turkey/Ivory_Coast/4372-2/2006|2006.95342465753'[&!color=#-26368]:0.0034637)[&!color=#-26368]:6.5496E-4,'H5N1_Avian_gal_Domestic_Africa_Sudan_A/chicken/Sudan/2115-9/2006|2006.45205479452'[&!color=#-26368]:0.00530917)[&!color=#-26368]:0.00147599,('H5N1_Avian_gal_Domestic_Asia_Russia_A/chicken/Kurgan/05/2005|2005.45205479452'[&!color=null]:0.00231605,'H5N1_Avian_ans_Wild_Asia_Mongolia_A/bar-headed_goose/Mongolia/1/05|2005.53424657534'[&!color=null]:0.00301428)[&!color=null]:3.3691E-4)[&!color=null]:3.1199E-4,'H5N1_Avian_ans_Domestic_Europe_Hungary_A/goose/Hungary/14756/2006|2006.42739726027'[&!color=#-16737793]:0.00598727)[&!color=null]:2.516E-4,('H5N1_Avian_fal_Wild_Asia_Saudi_Arabia_A/falcon/Saudi_Arabia/D1795/2005|2005.45205479452'[&!color=null]:0.00359473,(('H5N1_Avian_ans_Wild_Europe_Italy_A/cygnus_olor/Italy/808/2006|2006.45205479452'[&!color=#-16737793]:0.00292801,'H5N1_Avian_ans_Wild_Europe_Slovenia_A/swan/Slovenia/760/2006|2006.45205479452'[&!color=#-16737793]:6.1323E-4)[&!color=#-16737793]:2.905E-4,('H5N1_Avian_ans_Domestic_Africa_Egypt_A/duck/Egypt/D2br10/2007|2007.03835616438'[&!color=#-26368]:0.00350872,('H5N1_Avian_ans_Domestic_Africa_Egypt_A/duck/Egypt/0871/2008|2008.13698630137'[&!color=#-26368]:0.00788256,('H5N1_Avian_gal_Domestic_Africa_Egypt_A/chicken/Egypt/2253-1/2006|2006.45205479452'[&!color=#-26368]:0.0011649,('H5N1_Avian_ans_Domestic_Africa_Egypt_A/duck/Egypt/2253-3/2006|2006.45205479452'[&!color=#-26368]:0.00100475,('H5N1_Avian_gal_Domestic_Africa_Egypt_A/chicken/Egypt/CL6/2007|2007.2'[&!color=#-26368]:0.00631699,('H5N1_Avian_gal_Domestic_Africa_Egypt_A/chicken/Giza/CAI7/2008|2008.16164383562'[&!color=#-26368]:0.0026125,('H5N1_Avian_gal_Domestic_Africa_Egypt_A/chicken/Sharkia/CAI3/2009|2009.66575342466'[&!color=#-26368]:0.00123118,('H5N1_Avian_ans_Domestic_Africa_Egypt_A/duck/El_Fayoum/CAI1/2010|2010.16164383562'[&!color=#-26368]:0.00370644,'H5N1_Avian_gal_Domestic_Africa_Egypt_A/chicken/Egypt/Q1185/2010|2010.45205479452'[&!color=#-26368]:0.00342561)[&!color=#-26368]:0.00173264)[&!color=#-26368]:0.00792345)[&!color=#-26368]:0.01871453)[&!color=#-26368]:2.3088E-4)[&!color=#-26368]:1.7726E-4)[&!color=#-26368]:4.7988E-4)[&!color=#-26368]:6.2422E-4)[&!color=#-26368]:0.00216023)[&!color=null]:5.7937E-4)[&!color=null]:0.00156473)[&!color=null]:6.6675E-4)[&!color=null]:2.4758E-4)[&!color=null]:1.5675E-4)[&!color=null]:3.273E-5,'H5N1_Avian_ans_Wild_Asia_Russia_A/grebe/Novosibirsk/29/2005|2005.45205479452'[&!color=null]:0.00241542)[&!color=null]:8.155E-5,(((('H5N1_Avian_gal_Domestic_Africa_Nigeria_A/chicken/Nigeria/1047-30/2006|2006.45205479452'[&!color=#-26368]:-2.387E-5,'H5N1_Avian_str_Wild_Africa_Nigeria_A/ostrich/Nigeria/1047-25/2006|2006.45205479452'[&!color=#-26368]:0.00178925)[&!color=#-26368]:4.612E-5,'H5N1_Avian_ans_Domestic_Africa_Niger_A/duck/Niger/914/2006|2006.45205479452'[&!color=#-26368]:0.00113305)[&!color=#-26368]:4.1376E-4,('H5N1_Avian_gal_Domestic_Asia_Saudi_Arabia_A/turkey/Saudi_Arabia/6732-6/2007|2007.45205479452'[&!color=null]:4.3248E-4,'H5N1_Avian_fal_Wild_Asia_Saudi_Arabia_A/falcon/Saudi_Arabia/D1936/2007|2007.45205479452'[&!color=null]:0.00192852)[&!color=null]:0.0110473)[&!color=null]:8.9838E-4,((('H5N1_Avian_ans_Domestic_Asia_Russia_A/goose/Krasnoozerskoye/627/2005|2005.45205479452'[&!color=null]:0.00176378,'H5N1_Avian_ans_Wild_Europe_Germany_A/swan/Germany/R65/2006|2006.12328767123'[&!color=#-16737793]:0.00178411)[&!color=#-16737793]:9.4E-6,('H5N1_Avian_ans_Wild_Europe_Croatia_A/cygnus_olor/Croatia/1/2005|2005.45205479452'[&!color=#-16737793]:-2.97E-6,'H5N1_Avian_ans_Wild_Europe_Hungary_A/mute_swan/Hungary/3472/2006|2006.09863013699'[&!color=#-16737793]:0.00117699)[&!color=#-16737793]:5.8203E-4)[&!color=#-16737793]:5.603E-5,((('H5N1_Avian_ans_Wild_Asia_Russia_A/Cygnus_olor/Astrakhan/Ast05-2-10/2005|2005.90136986301'[&!color=null]:-1.133E-5,'H5N1_Avian_ans_Wild_Asia_Russia_A/Cygnus_olor/Caspian_Sea/2006|2006.45205479452'[&!color=null]:5.9882E-4)[&!color=null]:5.81E-6,'H5N1_Avian_ans_Domestic_Asia_Russia_A/duck/Kurgan/08/2005|2005.45205479452'[&!color=null]:-5.81E-6)[&!color=null]:0.00282144,('H5N1_Avian_pel_Wild_Asia_China_A/great_cormorant/Tibet/12/2006|2006.45205479452'[&!color=null]:0.00244087,('H5N1_Avian_ans_Wild_Asia_China_A/bar-headed_goose/Qinghai/1-HVRI/2006|2006.45205479452'[&!color=null]:0.00356173,'H5N1_Avian_ans_Wild_Asia_China_A/bar-headed_goose/Tibet/8/2006|2006.45205479452'[&!color=null]:0.00355021)[&!color=null]:5.4297E-4)[&!color=null]:0.00103937)[&!color=null]:8.661E-5)[&!color=null]:2.8169E-4)[&!color=null]:0.00141698)[&!color=null]:0.00156704,'H5N1_Avian_ans_Wild_Asia_China_A/bar-headed_goose/Qinghai/3/2005|2005.45205479452'[&!color=null]:0.00664071)[&!color=null]:0.00516283,'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Jiangxi/25/2004|2004.45205479452'[&!color=null]:0.00669125)[&!color=null]:0.00436079,(('H5N1_Avian_ans_Domestic_Asia_China_A/duck/Hubei/wp/2003|2003.45205479452'[&!color=null]:7.2564E-4,'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Guangdong/174/04|2004.45205479452'[&!color=null]:0.00520884)[&!color=null]:7.9163E-4,('H5N1_Avian_ans_Domestic_Asia_China_A/goose/Jilin/hb/2003|2003.45205479452'[&!color=null]:0.00601826,('H5N1_Avian_ans_Domestic_Asia_South_Korea_A/duck/Korea/ESD1/03|2003.45205479452'[&!color=null]:0.00206639,('H5N1_Avian_gal_Domestic_Asia_Japan_A/chicken/Yamaguchi/7/2004|2004.45205479452'[&!color=null]:0.00242966,'H5N1_Avian_pas_Wild_Asia_Japan_A/crow/Osaka/102/2004|2004.45205479452'[&!color=null]:5.2071E-4)[&!color=null]:3.0144E-4)[&!color=null]:0.00452016)[&!color=null]:4.2713E-4)[&!color=null]:7.9402E-4)[&!color=null]:0.00113245,'H5N1_Avian_ans_Wild_Asia_China_A/mallard/Huadong/Y/2003|2003.45205479452'[&!color=null]:0.00338359)[&!color=null]:0.0015842,(('H5N1_Avian_ans_Domestic_Asia_China_A/duck/Guangxi/13/2004|2004.45205479452'[&!color=null]:5.9287E-4,'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Guangxi/12/2004|2004.45205479452'[&!color=null]:-5.14E-6)[&!color=null]:0.0160514,(('H5N1_Avian_ans_Domestic_Asia_Indonesia_A/duck/East_Java/UT1107/2004|2004.64657534247'[&!color=null]:7.2502E-4,'H5N1_Avian_gal_Domestic_Asia_Indonesia_A/chicken/East_Java/UT1006/2003|2003.87123287671'[&!color=null]:0.00104751)[&!color=null]:0.00286656,('H5N1_Avian_gal_Domestic_Asia_Indonesia_A/chicken/East_Java/UT6031/2007|2007.03835616438'[&!color=null]:0.02273053,('H5N1_Avian_gal_Domestic_Asia_Indonesia_A/quail/Yogjakarta/UT1023/2004|2004.03835616438'[&!color=null]:9.412E-5,('H5N1_Avian_gal_Domestic_Asia_Indonesia_A/chicken/Sulawesi_Selatan/UT2093/2005|2005.45205479452'[&!color=null]:0.00160001,'H5N1_Avian_gal_Domestic_Asia_Indonesia_A/chicken/East_Java/UT6021/2006|2006.87123287671'[&!color=null]:0.00193687)[&!color=null]:0.00767494)[&!color=null]:0.00243527)[&!color=null]:0.00105711)[&!color=null]:0.00495284)[&!color=null]:2.7402E-4)[&!color=null]:0.00138715,(((((((((((('H5N1_Avian_ans_Domestic_Asia_China_A/duck/Eastern_China/909/2009|2009.03835616438'[&!color=null]:0.00748164,'H5N1_Avian_ans_Domestic_Asia_China_A/duck/Shandong/009/2008|2008.95342465753'[&!color=null]:0.00947397)[&!color=null]:0.00375161,('H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Hunan/1/2009|2009.45205479452'[&!color=null]:0.00685961,'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Shandong/A-1/2009|2009.45205479452'[&!color=null]:0.00697484)[&!color=null]:0.00493911)[&!color=null]:0.00347191,'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Hubei/2856/2007|2007.07671232877'[&!color=null]:0.01009691)[&!color=null]:0.00226551,('H5N1_Avian_ans_Domestic_Asia_China_A/duck/Hubei/2911/2007|2007.07671232877'[&!color=null]:0.00480121,('H5N1_Avian_ans_Domestic_Asia_China_A/domestic_green-winged_teal/Hunan/3450/2006|2006.20273972603'[&!color=null]:5.7231E-4,'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Hunan/3157/2006|2006.91232876712'[&!color=null]:0.00357324)[&!color=null]:0.00176047)[&!color=null]:0.00487038)[&!color=null]:3.4019E-4,('H5N1_Avian_ans_Domestic_Asia_China_A/duck/Anhui/1/06|2006.45205479452'[&!color=null]:0.00160044,('H5N1_Avian_ans_Domestic_Asia_China_A/duck/Hubei/49/2005|2005.45205479452'[&!color=null]:0.0014162,'H5N1_Avian_ans_Domestic_Asia_China_A/duck/Hubei/Hangmei01/2006|2006.45205479452'[&!color=null]:0.00573213)[&!color=null]:1.7893E-4)[&!color=null]:5.4854E-4)[&!color=null]:0.00140887,('H5N1_Avian_pas_Wild_Asia_China_A/shrike/Tibet/13/2006|2006.45205479452'[&!color=null]:0.00470778,('H5N1_Avian_gal_Domestic_Asia_Laos_A/chicken/Lao/LH1/2010|2010.36712328767'[&!color=null]:0.01968366,'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Sichuan/81/2005|2005.45205479452'[&!color=null]:0.00103238)[&!color=null]:4.6672E-4)[&!color=null]:0.00141816)[&!color=null]:9.2771E-4,'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Hunan/21/2005|2005.45205479452'[&!color=null]:0.00400962)[&!color=null]:1.2222E-4,(('H5N1_Avian_ans_Domestic_Asia_China_A/duck/Eastern_China/108/2008|2008.95342465753'[&!color=null]:0.00603346,'H5N1_Avian_ans_Wild_Asia_China_A/wild_duck/Shandong/628/2011|2011.28219178082'[&!color=null]:0.02618702)[&!color=null]:0.01679382,('H5N1_Avian_ans_Domestic_Asia_China_A/duck/Anhui/56/2005|2005.45205479452'[&!color=null]:0.00359059,('H5N1_Avian_ans_Domestic_Asia_China_A/duck/Jiangxi/80/2005|2005.45205479452'[&!color=null]:0.0054173,'H5N1_Avian_ans_Wild_Asia_China_A/wild_duck/Hunan/021/2005|2005.45205479452'[&!color=null]:0.00292211)[&!color=null]:0.00147141)[&!color=null]:1.85E-4)[&!color=null]:0.00141615)[&!color=null]:3.4967E-4,('H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Guizhou/7/2008|2008.45205479452'[&!color=null]:0.018326,((((('H5N1_Avian_gal_Domestic_Asia_Laos_A/chicken/Laos/P0020/2007|2007.45205479452'[&!color=null]:0.00350406,'H5N1_Avian_pas_Wild_Asia_Laos_A/pigeon/Laos/P0022/2007|2007.45205479452'[&!color=null]:0.00544839)[&!color=null]:1.1154E-4,'H5N1_Avian_ans_Domestic_Asia_Laos_A/duck/Laos/P0127/2007|2007.45205479452'[&!color=null]:0.00589149)[&!color=null]:6.209E-5,'H5N1_Avian_ans_Domestic_Asia_Laos_A/duck/Laos/25/2006|2006.45205479452'[&!color=null]:0.00108679)[&!color=null]:5.8121E-4,'H5N1_Avian_gal_Domestic_Asia_Laos_A/Chicken/Laos/Xaythiani_26/2006|2006.45205479452'[&!color=null]:0.00239665)[&!color=null]:0.00261769,(('H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Fujian/1/2007|2007.45205479452'[&!color=null]:0.0088408,'H5N1_Avian_fal_Wild_Asia_Hong_Kong_A/peregrine_falcon/Hong_Kong/2142/2008|2008.45205479452'[&!color=null]:0.0181064)[&!color=null]:0.00154714,('H5N1_Avian_gal_Domestic_Asia_Myanmar_A/chicken/Hmawbi/517/2007|2007.45205479452'[&!color=null]:0.00583728,(('H5N1_Avian_ans_Domestic_Asia_Laos_A/duck/Lao/9/2010|2010.2'[&!color=null]:0.01738173,'H5N1_Avian_ans_Domestic_Asia_Viet_Nam_A/duck/Vietnam/G12/2008|2008.03835616438'[&!color=null]:0.01757345)[&!color=null]:0.00110255,('H5N1_Avian_ans_Domestic_Asia_China_A/goose/Yunnan/3798/2006|2006.45205479452'[&!color=null]:0.00920948,'H5N1_Avian_gal_Domestic_Asia_Viet_Nam_A/chicken/Hanoi/45/2007|2007.45205479452'[&!color=null]:0.00524137)[&!color=null]:5.211E-4)[&!color=null]:5.0924E-4)[&!color=null]:4.4596E-4)[&!color=null]:5.6113E-4)[&!color=null]:6.6676E-4)[&!color=null]:6.46E-4)[&!color=null]:0.00177215,'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Tibet/6/2008|2008.45205479452'[&!color=null]:0.01557884)[&!color=null]:0.00394414,'H5N1_Avian_ans_Domestic_Asia_China_A/duck/Hunan/69/2004|2004.45205479452'[&!color=null]:0.00786818)[&!color=null]:0.00186004,('H5N1_Avian_ans_Domestic_Asia_China_A/duck/China/E319-2/03|2003.45205479452'[&!color=null]:0.00409321,('H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Guangdong/1/2005|2005.45205479452'[&!color=null]:0.01270639,('H5N1_Avian_pel_Wild_Asia_Hong_Kong_A/little_egret/Hong_Kong/8550/2007|2007.45205479452'[&!color=null]:0.00853229,(((('H5N1_Avian_ans_Domestic_Asia_China_A/duck/Zhejiang/2243/2011|2011.12328767123'[&!color=null]:0.00307374,'H5N1_Avian_ans_Wild_Asia_China_A/wild_duck/Fujian/1/2011|2011.18630136986'[&!color=null]:0.00890042)[&!color=null]:0.02046563,'H5N1_Avian_pel_Wild_Asia_Hong_Kong_A/grey_heron/Hong_Kong/1046/2008|2008.45205479452'[&!color=null]:-0.0013618)[&!color=null]:0.00249283,'H5N1_Avian_pas_Wild_Asia_Hong_Kong_A/magpie_robin/Hong_Kong/1097/2008|2008.45205479452'[&!color=null]:-5.783E-5)[&!color=null]:0.00411747,(((('H5N1_Avian_gal_Domestic_Asia_Russia_A/chicken/Primorje/1/2008|2008.27123287671'[&!color=null]:5.5994E-4,'H5N1_Avian_ans_Wild_Asia_Japan_A/whooper_swan/Hokkaido/1/2008|2008.45205479452'[&!color=null]:0.00357848)[&!color=null]:0.00115658,'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Hunan/8/2008|2008.87123287671'[&!color=null]:0.00422528)[&!color=null]:7.566E-4,('H5N1_Avian_ans_Domestic_Asia_China_A/duck/Hunan/3/2007|2007.78630136986'[&!color=null]:8.0615E-4,'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Hunan/3/2007|2007.78630136986'[&!color=null]:0.00214608)[&!color=null]:0.0016367)[&!color=null]:0.00218216,(('H5N1_Avian_ans_Domestic_Asia_China_A/duck/Hunan/8/2008|2008.87123287671'[&!color=null]:0.00341408,'H5N1_Avian_ans_Wild_Asia_China_A/swan/Shanghai/10/2009|2009.03835616438'[&!color=null]:0.00313598)[&!color=null]:0.00541309,(('H5N1_Avian_ans_Domestic_Asia_China_A/duck/Hunan/S4030/2011|2011.85479452055'[&!color=null]:0.00978278,'H5N1_Avian_gal_Domestic_Asia_India_A/chicken/India/CA0302/2011|2011.17534246575'[&!color=null]:0.01415808)[&!color=null]:0.00252137,(('H5N1_Avian_ans_Domestic_Asia_China_A/goose/Jiangsu/k0403/2010|2010.1095890411'[&!color=null]:0.00210505,'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Jiangsu/k0402/2010|2010.1095890411'[&!color=null]:0.00325226)[&!color=null]:0.00378627,(('H5N1_Avian_ans_Domestic_Asia_Viet_Nam_A/muscovy_duck/Quang_Ninh/49/2013|2013.35068493151'[&!color=null]:0.01750601,'H5N1_Avian_ans_Wild_Asia_China_A/wild_duck/Jilin/HF/2011|2011.31232876712'[&!color=null]:0.00828376)[&!color=null]:0.00281869,('H5N1_Avian_ans_Wild_Asia_China_A/great_crested-grebe/Qinghai/1/2009|2009.36712328767'[&!color=null]:4.7785E-4,((('H5N1_Avian_ans_Wild_Asia_Mongolia_A/whooper_swan/Mongolia/1/2010|2010.36712328767'[&!color=null]:0.00151943,'H5N1_Avian_ans_Wild_Asia_Russia_A/grebe/Tyva/2/2010|2010.47123287671'[&!color=null]:2.4904E-4)[&!color=null]:0.00633646,'H5N1_Avian_ans_Wild_Asia_Mongolia_A/bar-headed_goose/Mongolia/X53/2009|2009.53424657534'[&!color=null]:-3.8615E-4)[&!color=null]:1.7873E-4,('H5N1_Avian_ans_Wild_Asia_Russia_A/grebe/Tyva/3/2009|2009.47123287671'[&!color=null]:9.8915E-4,(('H5N1_Avian_gal_Domestic_Asia_Japan_A/chicken/Shimane/1/2010|2010.87123287671'[&!color=null]:5.9851E-4,'H5N1_Avian_ans_Wild_Asia_Japan_A/mute_swan/Toyama/1/2010|2010.95342465753'[&!color=null]:5.7812E-4)[&!color=null]:0.00220653,('H5N1_Avian_acc_Wild_Asia_South_Korea_A/Eurasian_eagle_owl/Korea/23/2010|2010.90136986301'[&!color=null]:0.00132894,((('H5N1_Avian_gru_Wild_Asia_Japan_A/hooded_crane/Kagoshima/4612J004/2010|2010.45205479452'[&!color=null]:-6.325E-5,'H5N1_Avian_gru_Wild_Asia_Japan_A/hooded_crane/Kagoshima/110214-3/2011|2011.45205479452'[&!color=null]:0.00183176)[&!color=null]:6.9935E-4,'H5N1_Avian_fal_Wild_Asia_Japan_A/peregrine_falcon/Aomori/7/2011|2011.2'[&!color=null]:0.00226422)[&!color=null]:5.2451E-4,('H5N1_Avian_ans_Wild_Asia_Japan_A/mandarin_duck/Miyazaki/22M-765/2011|2011.2'[&!color=null]:0.00229239,('H5N1_Avian_ans_Domestic_Asia_Japan_A/duck/Hokkaido/WZ101/2010|2010.78356164384'[&!color=null]:-6.53E-5,('H5N1_Avian_gal_Domestic_Asia_Japan_A/chicken/Aichi/2/2011|2011.12328767123'[&!color=null]:5.2277E-4,'H5N1_Avian_ans_Wild_Asia_South_Korea_A/mandarin_duck/Korea/PSC24-24/2010|2010.98904109589'[&!color=null]:0.00124455)[&!color=null]:6.374E-5)[&!color=null]:7.247E-5)[&!color=null]:7.627E-5)[&!color=null]:4.4553E-4)[&!color=null]:7.6828E-4)[&!color=null]:0.00197402)[&!color=null]:0.00166101)[&!color=null]:6.8823E-4)[&!color=null]:0.00121414)[&!color=null]:3.1255E-4)[&!color=null]:0.0025765)[&!color=null]:0.0078422)[&!color=null]:0.00313832)[&!color=null]:0.0012752)[&!color=null]:7.6176E-4)[&!color=null]:0.01928019)[&!color=null]:0.00244819)[&!color=null]:0.00218721)[&!color=null]:0.00311702)[&!color=null]:0.00361595,('H5N1_Avian_psi_Wild_Asia_China_A/parrot/Guangdong/C99/2005|2005.08493150685'[&!color=null]:0.00410533,(('H5N1_Avian_ans_Domestic_Asia_Hong_Kong_A/duck/Hong_Kong/821/2002|2002.45205479452'[&!color=null]:0.00372946,'H5N1_Avian_pel_Wild_Asia_Hong_Kong_A/egret/Hong_Kong/757.2/2003|2003.45205479452'[&!color=null]:0.00218913)[&!color=null]:0.00107183,(((((((((('H5N1_Avian_ans_Domestic_Asia_Viet_Nam_A/duck/Soc_Trang/8/2012|2012.66301369863'[&!color=null]:0.00377808,'H5N1_Avian_gal_Domestic_Asia_Viet_Nam_A/chicken/Soc_Trang/5/2012|2012.45753424658'[&!color=null]:0.00514609)[&!color=null]:0.00280811,('H5N1_Avian_gal_Domestic_Asia_Cambodia_A/chicken/Cambodia/083LC/2011|2011.68493150685'[&!color=null]:0.00191904,'H5N1_Avian_cic_Wild_Asia_Cambodia_A/marabou_stork/Cambodia/TM068/2011|2011.53150684932'[&!color=null]:4.3783E-4)[&!color=null]:0.00289104)[&!color=null]:0.00683766,'H5N1_Avian_gal_Domestic_Asia_Cambodia_A/chicken/Cambodia/TKCMB5T/2010|2010.07397260274'[&!color=null]:0.00177916)[&!color=null]:0.00842623,'H5N1_Avian_ans_Domestic_Asia_Viet_Nam_A/muscovy_duck/Vietnam/OIE-559/2011|2011.45205479452'[&!color=null]:0.01417125)[&!color=null]:0.00691518,'H5N1_Avian_ans_Domestic_Asia_Viet_Nam_A/Muscovy_duck/Ca_Mau/07-04/2007|2007.45205479452'[&!color=null]:2.1135E-4)[&!color=null]:0.0010617,'H5N1_Avian_ans_Domestic_Asia_Viet_Nam_A/Muscovy_duck/Ca_Mau/1185/2006|2006.98904109589'[&!color=null]:0.00259596)[&!color=null]:6.3453E-4,'H5N1_Avian_gal_Domestic_Asia_Viet_Nam_A/chicken/Ca_Mau/1180/2006|2006.98630136986'[&!color=null]:0.00171547)[&!color=null]:0.01327306,'H5N1_Avian_ans_Domestic_Asia_Cambodia_A/duck/Cambodia/D14AL/2006|2006.09315068493'[&!color=null]:0.00395015)[&!color=null]:0.003825,'H5N1_Avian_gal_Domestic_Asia_Viet_Nam_A/chicken/Viet_Nam/TG-023/2004|2004.45205479452'[&!color=null]:0.0021805)[&!color=null]:0.00209795,('H5N1_Avian_cic_Wild_Asia_Thailand_A/open-billed_stork/Nakhonsawan/BBD3616M/05|2005.45205479452'[&!color=null]:0.00438169,('H5N1_Avian_cic_Wild_Asia_Thailand_A/openbill_stork/Thailand/VSMU-4-NSN/2004|2004.09589041096'[&!color=null]:8.7048E-4,('H5N1_Avian_pas_Wild_Asia_Thailand_A/pigeon/Thailand/VSMU-7-NPT/2004|2004.45205479452'[&!color=null]:0.00114745,((('H5N1_Avian_gal_Domestic_Asia_Thailand_A/chicken/Suphanburi/NIAH7540/2004|2004.45205479452'[&!color=null]:5.5808E-4,'H5N1_Avian_gal_Domestic_Asia_Thailand_A/quail/Nakhon_Pathom/NIAH7562/2005|2005.45205479452'[&!color=null]:0.00477644)[&!color=null]:4.7164E-4,'H5N1_Avian_acc_Wild_Europe_Belgium_A/crested_eagle/Belgium/01/2004|2004.45205479452'[&!color=#-16737793]:0.0042941)[&!color=null]:0.00169073,(('H5N1 Avian ans Domestic Asia Thailand A/duck/Ang Thong/71(2)/2004|2004.45205479452'[&!color=null]:0.00110554,'H5N1_Avian_pas_Wild_Asia_Thailand_A/tree_sparrow/Rachaburi/VSMU-16-RBR/2005|2005.45205479452'[&!color=null]:0.00302626)[&!color=null]:7.298E-5,('H5N1_Avian_ans_Wild_Asia_Thailand_A/little_grebe/Thailand/Phichit-01/2004|2004.45205479452'[&!color=null]:0.0010699,((('H5N1_Avian_ans_Domestic_Asia_Thailand_A/duck/Thailand/TS04/2006|2006.45205479452'[&!color=null]:-5.833E-5,'H5N1_Avian_gal_Domestic_Asia_Thailand_A/chicken/Thailand/TS03/2006|2006.45205479452'[&!color=null]:0.00123493)[&!color=null]:0.00310119,'H5N1_Avian_gal_Domestic_Asia_Thailand_A/chicken/Uthaithani/NIAH115067/2008|2008.45205479452'[&!color=null]:0.00587075)[&!color=null]:0.00353812,('H5N1_Avian_gal_Domestic_Asia_Viet_Nam_A/chicken/Viet_Nam/8/2005|2005.45205479452'[&!color=null]:0.00306049,('H5N1_Avian_ans_Domestic_Asia_Viet_Nam_A/duck/Vietnam/942B/2004|2004.45205479452'[&!color=null]:-1.0772E-4,'H5N1_Avian_ans_Domestic_Asia_Viet_Nam_A/duck/Vietnam/1/2005|2005.45205479452'[&!color=null]:0.00187955)[&!color=null]:0.00110222)[&!color=null]:0.006602)[&!color=null]:2.9895E-4)[&!color=null]:9.696E-5)[&!color=null]:5.221E-5)[&!color=null]:5.317E-5)[&!color=null]:3.0711E-4)[&!color=null]:3.679E-4)[&!color=null]:2.7616E-4)[&!color=null]:0.00567095)[&!color=null]:0.00378898)[&!color=null]:3.9188E-4)[&!color=null]:6.4324E-4,'H5N1_Avian_ans_Domestic_Asia_China_A/duck/Guangdong/173/04|2004.45205479452'[&!color=null]:0.0168221)[&!color=null]:5.6377E-4,('H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Hunan/41/2004|2004.45205479452'[&!color=null]:0.0137217,('H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Anhui/39/2004|2004.45205479452'[&!color=null]:0.0020931,'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Gansu/44/2004|2004.45205479452'[&!color=null]:0.00203339)[&!color=null]:0.00924109)[&!color=null]:0.0039497)[&!color=null]:8.5504E-4,('H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Henan/13/2004|2004.45205479452'[&!color=null]:0.00194703,('H5N1_Avian_ans_Wild_Asia_China_A/wild_duck/Guangdong/314/2004|2004.45205479452'[&!color=null]:-1.582E-5,('H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Hubei/327/2004|2004.45205479452'[&!color=null]:0.00184509,'H5N1_Avian_ans_Wild_Asia_China_A/swan/Guangxi/307/2004|2004.45205479452'[&!color=null]:-8.09E-5)[&!color=null]:0.00178481)[&!color=null]:0.00101126)[&!color=null]:6.4069E-4)[&!color=null]:8.0453E-4,'H5N1_Avian_ans_Domestic_Asia_China_A/duck/Shanghai/xj/2002|2002.45205479452'[&!color=null]:0.00613664)[&!color=null]:0.00204103,('H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Jilin/hd/2002|2002.45205479452'[&!color=null]:0.0,'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Jilin/9/2004|2004.45205479452'[&!color=null]:0.0)[&!color=null]:0.0026976)[&!color=null]:2.5621E-4,'H5N1_Avian_ans_Domestic_Asia_Japan_A/duck/Yokohama/aq10/2003|2003.45205479452'[&!color=null]:0.01163431)[&!color=null]:6.7269E-4,'H5N1_Avian_ans_Domestic_Asia_China_A/duck/Zhejiang/bj/2002|2002.45205479452'[&!color=null]:0.01750049)[&!color=null]:3.0049E-4,'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Jiangsu/cz1/2002|2002.45205479452'[&!color=null]:0.00502326)[&!color=null]:6.5767E-4,('H5N1_Avian_ans_Domestic_Asia_Hong_Kong_A/Duck/Hong_Kong/380.5/2001|2001.45205479452'[&!color=null]:0.00751065,(((('H5N1_Avian_ans_Domestic_Asia_China_A/duck/Guangxi/xa/2001|2001.45205479452'[&!color=null]:0.00491874,'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Hebei/718/2001|2001.45205479452'[&!color=null]:0.00342701)[&!color=null]:5.6017E-4,'H5N1_Avian_ans_Wild_Asia_Hong_Kong_A/waterfowl/Hong_Kong/378.5/2001|2001.45205479452'[&!color=null]:0.00239555)[&!color=null]:8.2096E-4,('H5N1_Avian_ans_Domestic_Asia_China_A/goose/Fujian/bb/2003|2003.45205479452'[&!color=null]:0.00669772,'H5N1_Avian_gal_Domestic_Asia_Hong_Kong_A/chicken/Hong_Kong/409.1/2002|2002.45205479452'[&!color=null]:0.00465882)[&!color=null]:0.00716284)[&!color=null]:7.159E-4,(((('H5N1_Avian_ans_Domestic_Asia_China_A/domestic_green-winged_teal/Hunan/67/2005|2005.45205479452'[&!color=null]:0.00249284,'H5N1_Avian_gal_Domestic_Asia_Myanmar_A/chicken/Pyigyitagon/204/2006|2006.45205479452'[&!color=null]:0.01008757)[&!color=null]:0.00188375,('H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Xinjiang/53/2005|2005.45205479452'[&!color=null]:0.00479751,'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Xinjiang/28/2006|2006.45205479452'[&!color=null]:0.00600468)[&!color=null]:0.00684664)[&!color=null]:0.00193518,'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Sheny/0606/2008|2008.42739726027'[&!color=null]:0.01991452)[&!color=null]:0.00391506,('H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Shanxi/10/2006|2006.45205479452'[&!color=null]:0.01543524,('H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Hebei/102/2005|2005.45205479452'[&!color=null]:0.01278646,(('H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Henan/A-7/2006|2006.45205479452'[&!color=null]:0.0088402,'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Ningxia/24/2006|2006.45205479452'[&!color=null]:0.00438492)[&!color=null]:0.00321725,(('H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Liaoning/A-11/2006|2006.45205479452'[&!color=null]:0.00814862,'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Shandong/A-10/2006|2006.45205479452'[&!color=null]:0.01063353)[&!color=null]:0.00114336,(('H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Liaoning/A-1/2007|2007.45205479452'[&!color=null]:0.00817897,'H5N1_Avian_ans_Wild_Asia_China_A/mallard/Huadong/hn/2005|2005.45205479452'[&!color=null]:0.00262343)[&!color=null]:0.00195798,('H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Hebei/A-8/2009|2009.45205479452'[&!color=null]:0.01084331,('H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Huadong/4/2008|2008.95342465753'[&!color=null]:0.00814815,'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Jiangsu/18/2008|2008.45205479452'[&!color=null]:0.00447201)[&!color=null]:0.00448398)[&!color=null]:0.01466327)[&!color=null]:0.00122665)[&!color=null]:5.8969E-4)[&!color=null]:0.00105709)[&!color=null]:0.00184335)[&!color=null]:0.01708982)[&!color=null]:0.00762181)[&!color=null]:0.00111301)[&!color=null]:8.9467E-4)[&!color=null]:0.00280854,('H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Jilin/ha/2003|2003.45205479452'[&!color=null]:0.00734371,('H5N1_Avian_ans_Domestic_Asia_China_A/duck/Shandong/093/2004|2004.45205479452'[&!color=null]:0.00298359,('H5N1_Avian_ans_Domestic_Asia_China_A/goose/Guangdong/xb/2001|2001.45205479452'[&!color=null]:0.00413084,('H5N1_Avian_str_Wild_Asia_China_A/ostrich/Suzhou/097/2003|2003.28767123288'[&!color=null]:0.00685487,('H5N1_Avian_ans_Domestic_Asia_China_A/duck/Guangxi/12/2003|2003.45205479452'[&!color=null]:4.707E-4,'H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Hebei/108/02|2002.45205479452'[&!color=null]:0.00247446)[&!color=null]:0.0033835)[&!color=null]:6.4067E-4)[&!color=null]:4.0818E-4)[&!color=null]:0.00686784)[&!color=null]:0.00104648)[&!color=null]:0.00328507,('H5N1_Avian_gal_Domestic_Asia_China_A/chicken/Hubei/wj/1997|1997.45205479452'[&!color=null]:0.00456966,('H5N1_Avian_ans_Domestic_Asia_China_A/goose/Guangdong/1/1996|1996.45205479452'[&!color=null]:5.0034E-4,'H5N1_Avian_ans_Domestic_Asia_China_A/goose/Guangdong/3/1997|1997.45205479452'[&!color=null]:0.00185451)[&!color=null]:0.00564821)[&!color=null]:0.00344343)[&!color=null]:0.00913946,(('H5N1_Avian_ans_Wild_Europe_Germany_A/teal/Germany/WV632/2005|2005.89863013699'[&!color=#-6710887]:0.01944418,'H5N1_Avian_ans_Wild_Europe_Italy_A/mallard/Italy/3401/2005|2005.45205479452'[&!color=#-6710887]:0.02471004)[&!color=#-6710887]:0.01299887,('H5N1_Avian_ans_Domestic_Europe_France_A/duck/France/05066b/2005|2005.45205479452'[&!color=#-6710887]:0.02331797,('H5N1_Avian_ans_Wild_Asia_Japan_A/mallard/Hokkaido/24/2009|2009.45205479452'[&!color=#-6710887]:0.00615793,'H5N1_Avian_ans_Wild_Asia_South_Korea_A/wild_duck/Korea/SNU50-5/2009|2009.73698630137'[&!color=#-6710887]:0.00403422)[&!color=#-6710887]:0.04005369)[&!color=#-6710887]:0.01628306)[&!color=#-6710887]:0.02691975);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#-1;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#-16777216;
+	set appearance.selectionColour=#-2144520576;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute="User selection";
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=true;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=false;
+	set scaleBar.fontSize=12.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.01;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

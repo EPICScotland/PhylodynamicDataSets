@@ -1,0 +1,236 @@
+<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<head>
+	<title>Phylodynamic Datasets</title>
+	<meta name = "keywords" content = "phylogenetics,phylogeography,phylodynamics,pathogens,livestock,sequences,epic,scotland" >
+	<meta name = "description" content = "Academic Research and data in Virus and Bacteria Evolution and Modelling" >
+	<meta http-equiv = "Content-Type" content = "text/html; charset = ISO-8859-1" >
+	<LINK REL=StyleSheet HREF="style.css" TYPE="text/css" MEDIA=screen>	
+</head>
+
+
+
+	<div id = "page">
+		<div id = "nav">
+		
+        <a href = "http://epicscotland.github.io/index.html">Home</a>
+        <a href = "index.html">Phylodynamics</a>
+        <a href = "data.html">Data</a>
+        <a href = "links.html">Links</a>
+
+		
+		</div>
+	
+
+		<br>
+
+		<div id = "content">
+		
+
+		<center><h1>Avian Influenza Virus</h1></center>
+
+		<h1>Genomes</h1>
+
+		<p>Influenza A viruses (including avian influenza) are single stranded RNA viruses, with a segmented genome.  
+		There are 8 segments encoding for 10-12 proteins, and the segments range in size from 0.9kb to 2.4kb.  
+		See for example <a href = "http://viralzone.expasy.org/all_by_protein/6.html">http://viralzone.expasy.org/all_by_protein/6.html</a></p>
+
+		<p>Complete genomes are available for thousands of strains, from the 
+		<a href = "http://www.ncbi.nlm.nih.gov/genomes/FLU/FLU.html">Influenza Virus Resource (NCBI)</a> (open) and 
+		<a href = "http://platform.gisaid.org/epi3/">GISAID</a> (requires login).
+
+		<h1>Subtypes</h1>
+
+		<p>Influenza viruses are categorised by the subtype of the Hemagglutinin (HA) and Neuraminidase (NA) surface proteins, for example H5N1 (HA type 5, NA type 1).<br>
+		There are 17 HA types and 10 NA types.  
+		HA 1-16 and NA 1-9 have been isolated from avian hosts (and H17N10 was found in Bats in 2012 <a href="http://www.pnas.org/content/109/11/4269.short">doi: 10.1073/pnas.1116200109</a>).
+		For a general introduction to influenza viruses see <a href = "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC372859/">Webster 1992</a>.
+
+		<p>Avian influenza viruses circulating in the wild bird reservoir are usually low-pathogenic, 
+		however the inclusion of a cleavage site between the HA1 and HA2 subdomains within HA (typically a multi-basic cleavage site) is highly pathogenic particularly to chickens, 
+		and Highly pathogenic avian influenza (HPAI) is defined according to the effect on chickens and the presence of the cleavage site.  
+		General information on avian influenza can be found at Flu-Lab-Net : 
+		<a href = "http://www.flu-lab-net.eu/about_AI.html">http://www.flu-lab-net.eu/about_AI.html</a>
+
+		<p>Currently (2014), only H5 and H7 subtypes have been known to aquire the cleavage site that results in high pathogenicity, 
+		and HPAI outbreaks have occurred in Asia, Europe, Africa and North America with subtypes including H5N1, H5N2, H5N3, H7N1, H7N3, H7N7 (not in order).
+
+		
+
+		
+
+
+		<h1>Sequences</h1>
+		
+		<h2>Global sample data sets</h2>
+
+		<p>All avian influenza complete genomes were downloaded from the Influenza Virus Resource (interface to GenBank) on 25th Oct 2013.  
+		A sample of one per category was randomly chosen, the categories were: <br>
+		<ul>
+		<li>subtype
+		<li>bird type (wild/domestic + bird order, e.g. galliformes/anseriformes)
+		<li>country or state (for USA, Canada, China, Russia, UK)
+		<li>year
+		</ul>
+		Sequences from each segment, and associated information tables of the resulting selected 2158 genomes <a href="avianInfluenza/avianInfluenza_sampled_unaligned.zip">Unaligned fasta sequences and *.csv information files</a></p>
+		
+
+		<h2>H5N1 in Europe, Asia and Africa</h2>
+
+		<p>H5N1 isolates from Europe, Asia and Africa from 1996 to present were selected from the global sample of 2158 genomes (above), <br>
+		resulting in a set of 238 isolates, of which the majority were HPAI (233 of 238).<br>
+		<a href = "avianInfluenza/h5n1_eaa.zip">Zipped fasta sequences, trees and information files of Table 1</a>
+		<br><br>
+
+		<p><b>Table 1: Sequences, Neighbour joining Trees, and sequence information from 238 H5N1 isolates from Europe, Asia and Africa</b></p>
+		<TABLE cellpadding=5 border=TRUE>
+		<TR><TD>Segment<TD>Protein<TD>Fasta Sequences<TD>Newick NJ Tree<TD>Information Table</TR>
+
+		<TR><TD>1<TD>PB2
+		<TD><a href="avianInfluenza/h5n1_eaa/avian_influenza_A_seg1_maxPer1_H5N1_eaa_al.fas">Seg 1 Sequences</a>
+		<TD><a href="avianInfluenza/h5n1_eaa/avian_influenza_A_seg1_maxPer1_H5N1_eaa_al_tn93_nj.nwk">Seg 1 Tree</a>
+		<TD><a href="avianInfluenza/h5n1_eaa/avian_influenza_A_seg1_maxPer1_H5N1_eaa_sequence_information.csv">Seg 1 Table</a>
+		</TR>
+
+
+		<TR><TD>2<TD>PB1
+		<TD><a href="avianInfluenza/h5n1_eaa/avian_influenza_A_seg2_maxPer1_H5N1_eaa_al.fas">Seg 2 Sequences</a>
+		<TD><a href="avianInfluenza/h5n1_eaa/avian_influenza_A_seg2_maxPer1_H5N1_eaa_al_tn93_nj.nwk">Seg 2 Tree</a>
+		<TD><a href="avianInfluenza/h5n1_eaa/avian_influenza_A_seg2_maxPer1_H5N1_eaa_sequence_information.csv">Seg 2 Table</a>
+		</TR>
+
+
+		<TR><TD>3<TD>PA
+		<TD><a href="avianInfluenza/h5n1_eaa/avian_influenza_A_seg3_maxPer1_H5N1_eaa_al.fas">Seg 3 Sequences</a>
+		<TD><a href="avianInfluenza/h5n1_eaa/avian_influenza_A_seg3_maxPer1_H5N1_eaa_al_tn93_nj.nwk">Seg 3 Tree</a>
+		<TD><a href="avianInfluenza/h5n1_eaa/avian_influenza_A_seg3_maxPer1_H5N1_eaa_sequence_information.csv">Seg 3 Table</a>
+		</TR>
+
+
+		<TR><TD>4<TD>HA
+		<TD><a href="avianInfluenza/h5n1_eaa/avian_influenza_A_seg4_maxPer1_H5N1_eaa_al.fas">Seg 4 Sequences</a>
+		<TD><a href="avianInfluenza/h5n1_eaa/avian_influenza_A_seg4_maxPer1_H5N1_eaa_al_tn93_nj.nwk">Seg 4 Tree</a>
+		<TD><a href="avianInfluenza/h5n1_eaa/avian_influenza_A_seg4_maxPer1_H5N1_eaa_sequence_information.csv">Seg 4 Table</a>
+		</TR>
+
+
+		<TR><TD>5<TD>NP
+		<TD><a href="avianInfluenza/h5n1_eaa/avian_influenza_A_seg5_maxPer1_H5N1_eaa_al.fas">Seg 5 Sequences</a>
+		<TD><a href="avianInfluenza/h5n1_eaa/avian_influenza_A_seg5_maxPer1_H5N1_eaa_al_tn93_nj.nwk">Seg 5 Tree</a>
+		<TD><a href="avianInfluenza/h5n1_eaa/avian_influenza_A_seg5_maxPer1_H5N1_eaa_sequence_information.csv">Seg 5 Table</a>
+		</TR>
+
+
+		<TR><TD>6<TD>NA
+		<TD><a href="avianInfluenza/h5n1_eaa/avian_influenza_A_seg6_maxPer1_H5N1_eaa_al.fas">Seg 6 Sequences</a>
+		<TD><a href="avianInfluenza/h5n1_eaa/avian_influenza_A_seg6_maxPer1_H5N1_eaa_al_tn93_nj.nwk">Seg 6 Tree</a>
+		<TD><a href="avianInfluenza/h5n1_eaa/avian_influenza_A_seg6_maxPer1_H5N1_eaa_sequence_information.csv">Seg 6 Table</a>
+		</TR>
+
+
+		<TR><TD>7<TD>M1 & M2
+		<TD><a href="avianInfluenza/h5n1_eaa/avian_influenza_A_seg7_maxPer1_H5N1_eaa_al.fas">Seg 7 Sequences</a>
+		<TD><a href="avianInfluenza/h5n1_eaa/avian_influenza_A_seg7_maxPer1_H5N1_eaa_al_tn93_nj.nwk">Seg 7 Tree</a>
+		<TD><a href="avianInfluenza/h5n1_eaa/avian_influenza_A_seg7_maxPer1_H5N1_eaa_sequence_information.csv">Seg 7 Table</a>
+		</TR>
+
+
+		<TR><TD>8<TD>NS1 & NS2
+		<TD><a href="avianInfluenza/h5n1_eaa/avian_influenza_A_seg8_maxPer1_H5N1_eaa_al.fas">Seg 8 Sequences</a>
+		<TD><a href="avianInfluenza/h5n1_eaa/avian_influenza_A_seg8_maxPer1_H5N1_eaa_al_tn93_nj.nwk">Seg 8 Tree</a>
+		<TD><a href="avianInfluenza/h5n1_eaa/avian_influenza_A_seg8_maxPer1_H5N1_eaa_sequence_information.csv">Seg 8 Table</a>
+		</TR>
+
+
+		</TABLE>
+
+		<br><br>
+
+		<p><b>Figure 1: Neighbour joining tree of 238 H5N1 HA (segment 4) sequences</b>
+		<br>Grey = LPAI, Blue = European HPAI, Orange = Africian HPAI, Black = Asian HPAI.
+		<br>Click to Zoom</p>
+		<a href = "avianInfluenza/h5n1_eaa/avian_influenza_A_seg4_maxPer1_H5N1_eaa_al_tn93_nj_figTree.png">
+		<img src="avianInfluenza/h5n1_eaa/avian_influenza_A_seg4_maxPer1_H5N1_eaa_al_tn93_nj_figTree.png" width = 300</a><br><br>
+		<a href = "avianInfluenza/h5n1_eaa/avian_influenza_A_seg4_maxPer1_H5N1_eaa_al_tn93_nj.figTree">Seg 4 FigTree File</a>
+		</p>
+
+
+		<br>
+
+		<h2>LPAI data sets from Eurasia</h2>
+
+		<p><b>A study of reassortments among avian influenza viruses in Eurasia</b> was performed by Lu et al (2014), and the data (in xml format) is available via Dryad: <br>
+		Lu L, Lycett SJ, Leigh Brown AJ (2014) 
+		"Reassortment patterns of avian influenza virus internal segments among different subtypes"  
+		<i>BMC Evolutionary Biology</i> <b>14</b>:16. <a href = "http://www.biomedcentral.com/1471-2148/14/16">doi:10.1186/1471-2148-14-16</a> - 
+		<a href = "http://datadryad.org/resource/doi:10.5061/dryad.246pr">Data on Dryad</a>
+
+		<p><b>The recently emerged H7N9 strain</b>, which although LPAI still infected and caused death in humans in China, was sequenced and studied by Lam et al: <br>
+		Lam et al (2013) "The genesis and source of the H7N9 influenza viruses causing human infections in China" 
+		<i>Nature</i> <b>502</b>:241–244 
+		<a href = "http://www.nature.com/nature/journal/v502/n7470/full/nature12515.html">doi:10.1038/nature12515</a><br>
+		Background sequences from internal protein coding segments for this study, and ongoing studies into LPAI in China: <a href = "avianInfluenza/common_internals_for_H7N9.zip">zipped nexus files</a>
+
+		<br>
+
+		<h2>Additional studies</h2>
+
+		<p><b>A study of worldwide avian H7 and its interaction with NA</b><br> 
+		Ward MJ, Lycett SJ, Avila D, Bollback J, Leigh Brown AJ (2013) 
+		"Evolutionary interactions between haemagglutinin and neuraminidase in avian influenza" 
+		<i>BMC Evol Biol</i> 2013 <b>13:</b>222 <a href = "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3854068/">doi:10.1186/1471-2148-13-222</a>
+		</p>
+
+		<p><b>Reassortments in Eurasian swine, also contains large avian, swine and human trees (in supplementary)</b><br> 
+		Lycett SJ et al (2012) 
+		"Estimating reassortment rates in co-circulating Eurasian swine influenza viruses" 
+		<i>J Gen Virol</i> <b>93</b>11:2326-2336 <a href = "http://vir.sgmjournals.org/content/93/Pt_11/2326.long">doi:10.1099/vir.0.044503-0</a>
+		</p>
+
+		<p><b>Very large scale trees from avian, human, swine and equine influenza, showing an H7 equine strain is ancestral to the modern strains</b><br>
+		Worobey M, Han G-Z, Rambaut A (2014) 
+		"A synchronized global sweep of the internal genes of modern avian influenza virus" 
+		<i>Nature</i> <b>508</b>:254-257 <a href = "http://www.nature.com/nature/journal/v508/n7495/full/nature13016.html">doi:10.1038/nature13016</a>
+		</p>
+
+		<br><br>
+
+
+		</div>	
+
+		<hr/>
+
+		<div id = "footer">
+
+			<TABLE>
+			<TR>
+
+			<TD WIDTH=100>
+				<a href = "img/epiclogo_smaller.jpg">
+				<img src = "img/epiclogo_smaller.jpg" title = "EPIC Scotland" alt = "EPIC Scotland" width=100>
+				</a>
+			</TD>
+
+			<TD WIDTH=10></TD>
+			<TD VALIGN="top">	Dr S. J. Lycett<br>
+						Institute of Biodiversity, Animal Health and Comparative Medicine<br>
+						University of Glasgow<br>
+						Room 319, Jarrett Building, 464 Bearsden Road<br>
+						Glasgow, G61 1QH<br>						
+			</TABLE>
+
+
+			<p id="s1">
+				Copyright EPIC Scotland 2014
+			</p>
+
+		</div>
+
+	</div>
+</body>
+</html>
+
+
+
+
+
