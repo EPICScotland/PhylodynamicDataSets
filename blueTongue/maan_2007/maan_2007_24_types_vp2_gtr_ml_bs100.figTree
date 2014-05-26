@@ -13,10 +13,10 @@ begin taxa;
 	AJ585144_Type_23_VP2
 	AJ585129_Type_8_VP2
 	AJ585139_Type_18_VP2
-	AJ585126_Type_5_VP2
-	AJ585130_Type_9_VP2
 	AJ585128_Type_7_VP2
 	AJ585140_Type_19_VP2
+	AJ585126_Type_5_VP2
+	AJ585130_Type_9_VP2
 	AJ585131_Type_10_VP2
 	AJ585145_Type_24_VP2
 	AJ585138_Type_17_VP2
@@ -30,7 +30,7 @@ begin taxa;
 end;
 
 begin trees;
-	tree tree_1 = [&R] (((((((AJ585134_Type_13_VP2:0.37339843,AJ585137_Type_16_VP2:0.2608624)[&bs=0.85]:0.13673008,AJ585124_Type_3_VP2:0.2375529)[&bs=1.0]:0.6691317,(AJ585142_Type_21_VP2:0.31660261,(AJ585127_Type_6_VP2:0.29732248,AJ585135_Type_14_VP2:0.27941692)[&bs=0.92]:0.10636119)[&bs=1.0]:0.45309263)[&bs=0.8]:0.14128851,((AJ585122_Type_1_VP2:0.58828073,AJ585123_Type_2_VP2:0.63868299)[&bs=1.0]:0.21635354,(AJ585144_Type_23_VP2:0.20705882,(AJ585129_Type_8_VP2:0.30585987,AJ585139_Type_18_VP2:0.27492946)[&bs=0.88]:0.1371602)[&bs=1.0]:0.56840191)[&bs=0.7]:0.0859442)[&bs=1.0]:0.33252857,((AJ585126_Type_5_VP2:0.27384729,AJ585130_Type_9_VP2:0.32970236)[&bs=1.0]:1.0131416,(AJ585128_Type_7_VP2:0.29553655,AJ585140_Type_19_VP2:0.30506511)[&bs=1.0]:0.94872117)[&bs=0.42]:0.06692341)[&bs=0.83]:0.18095933,((AJ585131_Type_10_VP2:0.32657104,AJ585145_Type_24_VP2:0.27743434)[&bs=0.96]:0.08179355,(AJ585138_Type_17_VP2:0.33253105,(AJ585132_Type_11_VP2:0.33049855,(AJ585125_Type_4_VP2:0.27679877,AJ585141_Type_20_VP2:0.28894573)[&bs=0.94]:0.10417032)[&bs=0.46]:0.0289293)[&bs=0.56]:0.0417526)[&bs=1.0]:0.91090866)[&bs=1.0]:0.55546246,(AJ585136_Type_15_VP2:1.08536198,(AJ585133_Type_12_VP2:0.24508192,AJ585143_Type_22_VP2:0.36956149)[&bs=1.0]:0.92486435)[&bs=1.0]:1.09507324);
+	tree tree_1 = [&R] ((((((((AJ585134_Type_13_VP2:0.36503589,AJ585137_Type_16_VP2:0.2624701)[&bootstrap=0.74]:0.13945031,AJ585124_Type_3_VP2:0.23065804)[&bootstrap=1.0]:0.64468867,(AJ585142_Type_21_VP2:0.32402009,(AJ585127_Type_6_VP2:0.29682093,AJ585135_Type_14_VP2:0.28464185)[&bootstrap=0.84]:0.09756173)[&bootstrap=1.0]:0.45367816)[&bootstrap=0.67]:0.14458232,((AJ585122_Type_1_VP2:0.57388715,AJ585123_Type_2_VP2:0.63404261)[&bootstrap=1.0]:0.22563247,(AJ585144_Type_23_VP2:0.21188948,(AJ585129_Type_8_VP2:0.29479258,AJ585139_Type_18_VP2:0.27252075)[&bootstrap=0.93]:0.13668531)[&bootstrap=1.0]:0.55792307)[&bootstrap=0.56]:0.08503968)[&bootstrap=1.0]:0.3476311,(AJ585128_Type_7_VP2:0.28538232,AJ585140_Type_19_VP2:0.3086935)[&bootstrap=1.0]:0.97256737)[&bootstrap=0.28]:0.05464125,(AJ585126_Type_5_VP2:0.27672678,AJ585130_Type_9_VP2:0.31353913)[&bootstrap=1.0]:1.04761632)[&bootstrap=0.75]:0.17848342,((AJ585131_Type_10_VP2:0.32423945,AJ585145_Type_24_VP2:0.2768843)[&bootstrap=0.85]:0.08352374,(AJ585138_Type_17_VP2:0.3261166,(AJ585132_Type_11_VP2:0.32735843,(AJ585125_Type_4_VP2:0.27369772,AJ585141_Type_20_VP2:0.29067957)[&bootstrap=0.94]:0.10742512)[&bootstrap=0.54]:0.02979786)[&bootstrap=0.78]:0.03997291)[&bootstrap=1.0]:0.88932862)[&bootstrap=1.0]:0.55170063,(AJ585136_Type_15_VP2:1.03820145,(AJ585133_Type_12_VP2:0.27143053,AJ585143_Type_22_VP2:0.35986752)[&bootstrap=1.0]:0.9076291)[&bootstrap=1.0]:1.15871697);
 end;
 
 begin figtree;
@@ -60,9 +60,9 @@ begin figtree;
 	set nodeBars.displayAttribute=null;
 	set nodeBars.isShown=false;
 	set nodeLabels.colorAttribute="User selection";
-	set nodeLabels.displayAttribute="bs";
+	set nodeLabels.displayAttribute="bootstrap";
 	set nodeLabels.fontName="Arial";
-	set nodeLabels.fontSize=12;
+	set nodeLabels.fontSize=10;
 	set nodeLabels.fontStyle=0;
 	set nodeLabels.isShown=true;
 	set nodeLabels.significantDigits=4;
@@ -98,7 +98,7 @@ begin figtree;
 	set scaleBar.fontSize=10.0;
 	set scaleBar.isShown=true;
 	set scaleBar.lineWidth=1.0;
-	set scaleBar.scaleRange=0.0;
+	set scaleBar.scaleRange=0.3;
 	set tipLabels.colorAttribute="User selection";
 	set tipLabels.displayAttribute="Names";
 	set tipLabels.fontName="Arial";
@@ -106,7 +106,7 @@ begin figtree;
 	set tipLabels.fontStyle=0;
 	set tipLabels.isShown=true;
 	set tipLabels.significantDigits=4;
-	set trees.order=true;
+	set trees.order=false;
 	set trees.orderType="increasing";
 	set trees.rooting=false;
 	set trees.rootingType="User Selection";
