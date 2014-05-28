@@ -1,0 +1,197 @@
+<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<head>
+	<title>Phylodynamic Datasets</title>
+	<meta name = "keywords" content = "phylogenetics,phylogeography,phylodynamics,pathogens,livestock,sequences,epic,scotland" >
+	<meta name = "description" content = "Academic Research and data in Virus and Bacteria Evolution and Modelling" >
+	<meta http-equiv = "Content-Type" content = "text/html; charset = ISO-8859-1" >
+	<LINK REL=StyleSheet HREF="style.css" TYPE="text/css" MEDIA=screen>	
+</head>
+
+
+
+	<div id = "page">
+		<div id = "nav">
+		
+        <a href = "http://epicscotland.github.io/index.html">Home</a>
+        <a href = "index.html">Phylodynamics</a>
+        <a href = "data.html">Data</a>
+        <a href = "links.html">Links</a>
+
+		
+		</div>
+	
+
+		<br>
+
+		<div id = "content">
+		
+
+		<center><h1>Schmallenberg Virus</h1></center>
+
+		<h1>Genome</h1>
+
+		<p>The Schmallenberg Virus is an Orthobunyavirus with a segmented RNA genome, containing three segments:<br>
+		S (small) - 1kb, M (medium) - 4.4kb, and L (large) - 6.7kb.  The surface glycoproteins Gn and Gc are encoded on the M segment.<br>
+		See <a href = "http://viralzone.expasy.org/viralzone/all_by_species/250.html">http://viralzone.expasy.org/viralzone/all_by_species/250.html</a></p>
+
+		<h2>Relationship to other viruses</h2>
+
+		<p>The Schmallenberg Virus belongs to the Simbu serogroup, together with Shamonda and Sathuperi viruses.  
+		It seems that reassortment has occurred between these strains, and the following papers investigate the relationships between them.<br>
+
+		<p>Saeed et al (2001) "Phylogeny of the Simbu serogroup of the genus Bunyavirus"
+		<i>J Gen Virol.</i> 2001;<b>82</b>:2173–81<br>
+		<a href = "http://vir.sgmjournals.org/content/82/9/2173.long">PMID 11514727</a>
+
+		<p>Goller et al (2012) "Schmallenberg Virus as Possible Ancestor of Shamonda Virus" <i>Emerg Infect Dis</i> Oct 2012 <b>18</b>(10):1644–1646.<br> 
+		<a href = "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3471646/">doi:  10.3201/eid1810.120835</a>
+
+		<p>Yanase et al (2012) 
+		"Genetic reassortment between Sathuperi and Shamonda viruses of the genus Orthobunyavirus in nature: implications for their genetic relationship to Schmallenberg virus" 
+		<i>Arch Virol</i> <b>157</b>:8 pp 1611-1616<br>
+		<a href = "http://www.ncbi.nlm.nih.gov/pubmed/22588368">doi: 10.1007/s00705-012-1341-8</a>
+
+		<h1>Sequences</h1>
+
+		<h2>Segments</h2>
+
+		<p>Sequences from all segments were downloaded from GenBank on 28th May 2014. 
+		Initial processing to split the sequences into separate files according to segment was performed using a custom R script 
+		<a href="rscripts/epic_process_background_seqs_schmallenberg_virus.R">epic_process_background_seqs_schmallenberg_virus.R</a>, followed by manual editting of the sequence files.</p>
+
+		<p>Nucleotide sequences (fasta format) were initially aligned manually and then translated to amino acids for alignment using MUSCLE in MEGA 5.</p>
+		<p>Neighbour joining trees (newick format) were created in MEGA with the TN93 model, pairwise deletetion, and heterogenous rates between sites and lineages.<br>
+		Maximum likelihood trees (newick format) were also created in MEGA with the GTR model with site rate heterogeneity and 100 bootstraps</p>
+
+		
+		<p><b>Table 1: Individual segments with GenBank accession numbers as names</b><br>
+		<TABLE ALIGNMENT="top" cellpadding=5 border=1>
+		<TR>
+		<TD><b>Segment<TD><b>Length<TD><b>Num.Seqs.<TD><b>FASTA<TD><b>NJ Tree<TD><b>ML Tree</b>
+		</TR>
+		 
+		<TR>
+		<TD>S
+		<TD>841
+		<TD>33
+		<TD><a href="schmallenberg//accessionNames//schmallenberg_S_accns.fas">S segment</a>
+		<TD><a href="schmallenberg//accessionNames//schmallenberg_S_accns_tn93_nj.nwk">S NJ Tree</a>
+		<TD><a href="schmallenberg//accessionNames//schmallenberg_S_accns_gtr_ml_bs100.nwk">S ML Tree</a>
+		</TR>
+
+		<TR>
+		<TD>M
+		<TD>4434
+		<TD>33
+		<TD><a href="schmallenberg//accessionNames//schmallenberg_M_accns.fas">M segment</a>
+		<TD><a href="schmallenberg//accessionNames//schmallenberg_M_accns_tn93_nj.nwk">M NJ Tree</a>
+		<TD><a href="schmallenberg//accessionNames//schmallenberg_M_accns_gtr_ml_bs100.nwk">M ML Tree</a>
+		</TR>
+
+		<TR>
+		<TD>L
+		<TD>6682
+		<TD>10
+		<TD><a href="schmallenberg//accessionNames//schmallenberg_L_accns.fas">L segment</a>
+		<TD><a href="schmallenberg//accessionNames//schmallenberg_L_accns_tn93_nj.nwk">L NJ Tree</a>
+		<TD><a href="schmallenberg//accessionNames//schmallenberg_L_accns_gtr_ml_bs100.nwk">L ML Tree</a>
+		</TR>
+		
+		</TABLE>
+
+		<p><b>Table 2: Individual segments with names in format Host|Country|Year|Strain|Date|DecimalDate</b><br>
+		<TABLE ALIGNMENT="top" cellpadding=5 border=1>
+		<TR>
+		<TD><b>Segment<TD><b>Length<TD><b>Num.Seqs.<TD><b>FASTA<TD><b>NJ Tree<TD><b>ML Tree<TD><b>Strain Information</b>
+		</TR>
+		 
+		<TR>
+		<TD>S
+		<TD>841
+		<TD>33
+		<TD><a href="schmallenberg//names//schmallenberg_S_names.fas">S segment</a>
+		<TD><a href="schmallenberg//names//schmallenberg_S_names_tn93_nj.nwk">S NJ Tree</a>
+		<TD><a href="schmallenberg//names//schmallenberg_S_names_gtr_ml_bs100.nwk">S ML Tree</a>
+		<TD><a href="schmallenberg//names//schmallenberg_S_names_info.txt">S Information Table</a>
+		</TR>
+
+		<TR>
+		<TD>M
+		<TD>4434
+		<TD>33
+		<TD><a href="schmallenberg//names//schmallenberg_M_names.fas">M segment</a>
+		<TD><a href="schmallenberg//names//schmallenberg_M_names_tn93_nj.nwk">M NJ Tree</a>
+		<TD><a href="schmallenberg//names//schmallenberg_M_names_gtr_ml_bs100.nwk">M ML Tree</a>
+		<TD><a href="schmallenberg//names//schmallenberg_M_names_info.txt">M Information Table</a>
+		</TR>
+
+		<TR>
+		<TD>L
+		<TD>6682
+		<TD>10
+		<TD><a href="schmallenberg//names//schmallenberg_L_names.fas">L segment</a>
+		<TD><a href="schmallenberg//names//schmallenberg_L_names_tn93_nj.nwk">L NJ Tree</a>
+		<TD><a href="schmallenberg//names//schmallenberg_L_names_gtr_ml_bs100.nwk">L ML Tree</a>
+		<TD><a href="schmallenberg//names//schmallenberg_L_names_info.txt">L Information Table</a>
+		</TR>
+		
+		</TABLE>
+
+		
+		<br>
+
+		<p><b>Figures: Maximum Likelihood trees (GTR + gamma distributed rates between sites, and 100 bootstraps) of the three segments.</b><br>
+		Taxa are coloured according to host type, Sheep = pale blue, Goat = dark blue, Cattle = brown, Lab = black<br>
+		Click to zoom.<br><br>
+		<TABLE cellpadding=10>
+		<TR><TD>Segment S<TD>Segment M<TD>Segment L</TR>
+		<TR>
+		<TD align="CENTER"><a href = "schmallenberg//names//schmallenberg_S_names_gtr_ml_bs100_figTree.png"><img src="schmallenberg//names//schmallenberg_S_names_gtr_ml_bs100_figTree.png" height=200></a>
+		<TD align="CENTER"><a href = "schmallenberg//names//schmallenberg_M_names_gtr_ml_bs100_figTree.png"><img src="schmallenberg//names//schmallenberg_M_names_gtr_ml_bs100_figTree.png" height=200></a>
+		<TD align="CENTER"><a href = "schmallenberg//names//schmallenberg_L_names_gtr_ml_bs100_figTree.png"><img src="schmallenberg//names//schmallenberg_L_names_gtr_ml_bs100_figTree.png" height=200></a>
+		</TR>
+		<TR>
+		<TD align="CENTER"><a href = "schmallenberg//names//schmallenberg_S_names_gtr_ml_bs100.figTree">S FigTree File</a>
+		<TD align="CENTER"><a href = "schmallenberg//names//schmallenberg_M_names_gtr_ml_bs100.figTree">M FigTree File</a>
+		<TD align="CENTER"><a href = "schmallenberg//names//schmallenberg_L_names_gtr_ml_bs100.figTree">L FigTree File</a>
+		</TABLE>
+
+		</div>	
+
+		<hr/>
+
+		<div id = "footer">
+
+			<TABLE>
+			<TR>
+
+			<TD WIDTH=100>
+				<a href = "img/epiclogo_smaller.jpg">
+				<img src = "img/epiclogo_smaller.jpg" title = "EPIC Scotland" alt = "EPIC Scotland" width=100>
+				</a>
+			</TD>
+
+			<TD WIDTH=10></TD>
+			<TD VALIGN="top">	Dr S. J. Lycett<br>
+						Institute of Biodiversity, Animal Health and Comparative Medicine<br>
+						University of Glasgow<br>
+						Room 319, Jarrett Building, 464 Bearsden Road<br>
+						Glasgow, G61 1QH<br>						
+			</TABLE>
+
+
+			<p id="s1">
+				Copyright EPIC Scotland 2014
+			</p>
+
+		</div>
+
+	</div>
+</body>
+</html>
+
+
+
+
+

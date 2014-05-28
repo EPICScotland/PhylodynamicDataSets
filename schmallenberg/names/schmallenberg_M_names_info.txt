@@ -1,0 +1,34 @@
+"SequenceName"	"LOCUS"	"LENGTH"	"RECORD_DATE"	"host"	"country"	"collection_date"	"serotype"	"isolate"	"strain"	"segment"	"gene"	"product"	"codon_start"	"note"	"COMPLEMENT"	"position"	"segAssign"
+"Cattle|Netherlands|2011|F6|2011|2011.4521"	"KC355458"	4373	"01-SEP-2013"	"Bos taurus"	"Netherlands"	"2011"	-1	"F6"	"-1"	"M"	"M"	"M polyprotein"	1	"-1"	FALSE	"24..4235"	2
+"Sheep|Netherlands|2011|HL1|2011|2011.4521"	"KC355455"	4373	"01-SEP-2013"	"Ovis aries"	"Netherlands"	"2011"	-1	"HL1"	"-1"	"M"	"M"	"M polyprotein"	1	"-1"	FALSE	"24..4235"	2
+"Sheep|Belgium|2012|Na2-BHK21-P10|Jan-2012|2012.0384"	"KC139374"	4373	"22-MAY-2013"	"sheep"	"Belgium"	"Jan-2012"	-1	"Na2-BHK21-P10"	"Na2"	"M"	"-1"	"M polyprotein"	1	"-1"	FALSE	"24..4235"	2
+"Sheep|Belgium|2012|Na2-BHK21-P2|Jan-2012|2012.0384"	"KC139373"	4373	"22-MAY-2013"	"sheep"	"Belgium"	"Jan-2012"	-1	"Na2-BHK21-P2"	"Na2"	"M"	"-1"	"M polyprotein"	1	"-1"	FALSE	"24..4235"	2
+"Sheep|Belgium|2012|Na2-CNS|Jan-2012|2012.0384"	"KC139372"	4373	"22-MAY-2013"	"sheep"	"Belgium"	"Jan-2012"	-1	"Na2-CNS"	"Na2"	"M"	"-1"	"M polyprotein"	1	"-1"	FALSE	"24..4235"	2
+"Sheep|Belgium|2012|Na1-BHK21-P10|Jan-2012|2012.0384"	"KC139370"	4373	"22-MAY-2013"	"sheep"	"Belgium"	"Jan-2012"	-1	"Na1-BHK21-P10"	"Na1"	"M"	"-1"	"M polyprotein"	1	"-1"	FALSE	"24..4235"	2
+"Sheep|Belgium|2012|Na1-BHK21-P2|Jan-2012|2012.0384"	"KC139369"	4373	"22-MAY-2013"	"sheep"	"Belgium"	"Jan-2012"	-1	"Na1-BHK21-P2"	"Na1"	"M"	"-1"	"M polyprotein"	1	"-1"	FALSE	"24..4235"	2
+"Sheep|Belgium|2012|Na1-CNS|Jan-2012|2012.0384"	"KC139368"	4373	"22-MAY-2013"	"sheep"	"Belgium"	"Jan-2012"	-1	"Na1-CNS"	"Na1"	"M"	"-1"	"M polyprotein"	1	"-1"	FALSE	"24..4235"	2
+"Cattle|Germany|2012|BH652/12-1|Oct-2012|2012.7863"	"KC108887"	4212	"22-MAY-2013"	"Bos taurus"	"Germany: Schleswig-Holstein"	"Oct-2012"	-1	"BH652/12-1"	"-1"	"M"	"M"	"M polyprotein"	1	"-1"	FALSE	"1..4212"	2
+"Cattle|Germany|2012|BH635/12-2|Aug-2012|2012.6192"	"KC108885"	4212	"22-MAY-2013"	"Bos taurus"	"Germany: Rhineland-Palatinate"	"Aug-2012"	-1	"BH635/12-2"	"-1"	"M"	"M"	"M polyprotein"	1	"-1"	FALSE	"1..4212"	2
+"Sheep|Germany|2012|BH619/12-1|Sep-2012|2012.7041"	"KC108883"	4212	"22-MAY-2013"	"Ovis orientalis aries"	"Germany: Thuringia"	"Sep-2012"	-1	"BH619/12-1"	"-1"	"M"	"M"	"M polyprotein"	1	"-1"	FALSE	"1..4212"	2
+"Sheep|Germany|2012|BH336/12-3|Mar-2012|2012.2000"	"KC108881"	4206	"22-MAY-2013"	"Ovis orientalis aries"	"Germany: Saxony"	"Mar-2012"	-1	"BH336/12-3"	"-1"	"M"	"M"	"M polyprotein"	1	"-1"	FALSE	"1..4206"	2
+"Sheep|Germany|2012|BH336/12-1|Mar-2012|2012.2000"	"KC108879"	4212	"22-MAY-2013"	"Ovis orientalis aries"	"Germany: Saxony"	"Mar-2012"	-1	"BH336/12-1"	"-1"	"M"	"M"	"M polyprotein"	1	"-1"	FALSE	"1..4212"	2
+"Cattle|Germany|2012|BH250/12-2|Feb-2012|2012.1233"	"KC108877"	4212	"22-MAY-2013"	"Bos taurus"	"Germany: Saarland"	"Feb-2012"	-1	"BH250/12-2"	"-1"	"M"	"M"	"M polyprotein"	1	"-1"	FALSE	"1..4212"	2
+"Cattle|Germany|2012|BH248/12-1|Feb-2012|2012.1233"	"KC108875"	4212	"22-MAY-2013"	"Bos taurus"	"Germany: Mecklenburg-West Pomerania"	"Feb-2012"	-1	"BH248/12-1"	"-1"	"M"	"M"	"M polyprotein"	1	"-1"	FALSE	"1..4212"	2
+"Sheep|Germany|2012|BH237/12-4|Feb-2012|2012.1233"	"KC108873"	4209	"22-MAY-2013"	"Ovis orientalis aries"	"Germany: Schleswig-Holstein"	"Feb-2012"	-1	"BH237/12-4"	"-1"	"M"	"M"	"M polyprotein"	1	"-1"	FALSE	"1..4209"	2
+"Goat|Germany|2012|BH233/12-1|Jan-2012|2012.0384"	"KC108871"	4212	"22-MAY-2013"	"goat"	"Germany: Baden-Wuerttemberg"	"Jan-2012"	-1	"BH233/12-1"	"-1"	"M"	"M"	"M polyprotein"	1	"-1"	FALSE	"1..4212"	2
+"Sheep|Germany|2012|BH231/12-1|Jan-2012|2012.0384"	"KC108869"	4212	"22-MAY-2013"	"Ovis orientalis aries"	"Germany: Rhineland-Palatinate"	"Jan-2012"	-1	"BH231/12-1"	"-1"	"M"	"M"	"M polyprotein"	1	"-1"	FALSE	"1..4212"	2
+"Sheep|Germany|2012|BH200/12-2|Jan-2012|2012.0384"	"KC108867"	4212	"22-MAY-2013"	"Ovis orientalis aries"	"Germany: Bavaria"	"Jan-2012"	-1	"BH200/12-2"	"-1"	"M"	"M"	"M polyprotein"	1	"-1"	FALSE	"1..4212"	2
+"Sheep|Germany|2012|BH199/12-5|Jan-2012|2012.0384"	"KC108865"	4212	"22-MAY-2013"	"Ovis orientalis aries"	"Germany: Schleswig-Holstein"	"Jan-2012"	-1	"BH199/12-5"	"-1"	"M"	"M"	"M polyprotein"	1	"-1"	FALSE	"1..4212"	2
+"Sheep|Germany|2012|BH198/12-5|Jan-2012|2012.0384"	"KC108863"	4212	"22-MAY-2013"	"Ovis orientalis aries"	"Germany: Saxony-Anhalt"	"Jan-2012"	-1	"BH198/12-5"	"-1"	"M"	"M"	"M polyprotein"	1	"-1"	FALSE	"1..4212"	2
+"Sheep|Germany|2012|BH197/12-3|Jan-2012|2012.0384"	"KC108861"	4212	"22-MAY-2013"	"Ovis orientalis aries"	"Germany: Hamburg"	"Jan-2012"	-1	"BH197/12-3"	"-1"	"M"	"M"	"M polyprotein"	1	"-1"	FALSE	"1..4212"	2
+"Sheep|Germany|2012|BH174/12-2|Jan-2012|2012.0384"	"KC108859"	4218	"22-MAY-2013"	"Ovis orientalis aries"	"Germany: North Rhine-Westphalia"	"Jan-2012"	-1	"BH174/12-2"	"-1"	"M"	"M"	"M polyprotein"	1	"-1"	FALSE	"1..4218"	2
+"Sheep|Germany|2012|BH148/12-9|Jan-2012|2012.0384"	"KC108857"	4212	"22-MAY-2013"	"Ovis orientalis aries"	"Germany: Thuringia"	"Jan-2012"	-1	"BH148/12-9"	"-1"	"M"	"M"	"M polyprotein"	1	"-1"	FALSE	"1..4212"	2
+"Sheep|Germany|2012|BH127/12-16|Jan-2012|2012.0384"	"KC108855"	4212	"22-MAY-2013"	"Ovis orientalis aries"	"Germany: Schleswig-Holstein"	"Jan-2012"	-1	"BH127/12-16"	"-1"	"M"	"M"	"M polyprotein"	1	"-1"	FALSE	"1..4212"	2
+"Sheep|Germany|2012|BH77/12-1|Jan-2012|2012.0384"	"KC108853"	4176	"22-MAY-2013"	"Ovis orientalis aries"	"Germany: Lower Saxony"	"Jan-2012"	-1	"BH77/12-1"	"-1"	"M"	"M"	"M polyprotein"	1	"-1"	FALSE	"1..4176"	2
+"Sheep|Germany|2012|BH59/12-8|Jan-2012|2012.0384"	"KC108851"	4212	"22-MAY-2013"	"Ovis orientalis aries"	"Germany: Hesse"	"Jan-2012"	-1	"BH59/12-8"	"-1"	"M"	"M"	"M polyprotein"	1	"-1"	FALSE	"1..4212"	2
+"Sheep|Germany|2012|BH37/12-2|Jan-2012|2012.0384"	"KC108849"	4212	"22-MAY-2013"	"Ovis orientalis aries"	"Germany: North Rhine-Westphalia"	"Jan-2012"	-1	"BH37/12-2"	"-1"	"M"	"M"	"M polyprotein"	1	"-1"	FALSE	"1..4212"	2
+"Sheep|Germany|2012|BH28/12-5|Jan-2012|2012.0384"	"KC108847"	4212	"22-MAY-2013"	"Ovis orientalis aries"	"Germany: North Rhine-Westphalia"	"Jan-2012"	-1	"BH28/12-5"	"-1"	"M"	"M"	"M polyprotein"	1	"-1"	FALSE	"1..4212"	2
+"Sheep|Germany|2012|BH03/12-3|Jan-2012|2012.0384"	"KC108845"	4212	"22-MAY-2013"	"Ovis orientalis aries"	"Germany: North Rhine-Westphalia"	"Jan-2012"	-1	"BH03/12-3"	"-1"	"M"	"M"	"M polyprotein"	1	"-1"	FALSE	"1..4212"	2
+"Sheep|Germany|2011|BH02/12-1|Nov-2011|2011.8712"	"KC108843"	4212	"22-MAY-2013"	"Ovis orientalis aries"	"Germany: North Rhine-Westphalia"	"Nov-2011"	-1	"BH02/12-1"	"-1"	"M"	"M"	"M polyprotein"	1	"-1"	FALSE	"1..4212"	2
+"Lab|Germany|2011|Germany|Oct-2011|2011.7863"	"JX853180"	4373	"23-JAN-2013"	"-1"	"Germany"	"Oct-2011"	-1	"Germany"	"-1"	"M"	"M"	"polyprotein"	1	"-1"	FALSE	"24..4235"	2
+"Cattle|Germany|2011|BH80/11-4|2011|2011.4521"	"HE649913"	4415	"26-MAR-2012"	"Bos taurus"	"Germany:North Rhine-Westphalia, Schmallenberg"	"2011"	-1	"BH80/11-4"	"-1"	"M"	"M"	"M polyprotein"	1	"-1"	FALSE	"12..4223"	2

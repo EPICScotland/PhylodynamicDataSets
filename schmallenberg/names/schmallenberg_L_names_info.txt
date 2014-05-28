@@ -1,0 +1,11 @@
+"SequenceName"	"LOCUS"	"LENGTH"	"RECORD_DATE"	"host"	"country"	"collection_date"	"serotype"	"isolate"	"strain"	"segment"	"gene"	"product"	"codon_start"	"note"	"COMPLEMENT"	"position"	"segAssign"
+"Cattle|Netherlands|2011|F6|2011|2011.4521"	"KC355457"	6882	"01-SEP-2013"	"Bos taurus"	"Netherlands"	"2011"	-1	"F6"	"-1"	"L"	"RDRP"	"RNA-dependent RNA polymerase"	1	"-1"	FALSE	"28..6792"	3
+"Sheep|Netherlands|2011|HL1|2011|2011.4521"	"KC355454"	6882	"01-SEP-2013"	"Ovis aries"	"Netherlands"	"2011"	-1	"HL1"	"-1"	"L"	"RDRP"	"RNA-dependent RNA polymerase"	1	"-1"	FALSE	"28..6792"	3
+"Sheep|Belgium|2012|Na2-BHK21-P10|Jan-2012|2012.0384"	"KC139367"	6882	"22-MAY-2013"	"sheep"	"Belgium"	"Jan-2012"	-1	"Na2-BHK21-P10"	"Na2"	"L"	"-1"	"RNA-dependent RNA polymerase"	1	"-1"	FALSE	"28..6792"	3
+"Sheep|Belgium|2012|Na2-BHK21-P2|Jan-2012|2012.0384"	"KC139366"	6882	"22-MAY-2013"	"sheep"	"Belgium"	"Jan-2012"	-1	"Na2-BHK21-P2"	"Na2"	"L"	"-1"	"RNA-dependent RNA polymerase"	1	"-1"	FALSE	"28..6792"	3
+"Sheep|Belgium|2012|Na2-CNS|Jan-2012|2012.0384"	"KC139365"	6882	"22-MAY-2013"	"sheep"	"Belgium"	"Jan-2012"	-1	"Na2-CNS"	"Na2"	"L"	"-1"	"RNA-dependent RNA polymerase"	1	"-1"	FALSE	"28..6792"	3
+"Sheep|Belgium|2012|Na1-BHK21-P10|Jan-2012|2012.0384"	"KC139364"	6882	"22-MAY-2013"	"sheep"	"Belgium"	"Jan-2012"	-1	"Na1-BHK21-P10"	"Na1"	"L"	"-1"	"RNA-dependent RNA polymerase"	1	"-1"	FALSE	"28..6792"	3
+"Sheep|Belgium|2012|Na1-BHK21-P2|Jan-2012|2012.0384"	"KC139363"	6882	"22-MAY-2013"	"sheep"	"Belgium"	"Jan-2012"	-1	"Na1-BHK21-P2"	"Na1"	"L"	"-1"	"RNA-dependent RNA polymerase"	1	"-1"	FALSE	"28..6792"	3
+"Sheep|Belgium|2012|Na1-CNS|Jan-2012|2012.0384"	"KC139362"	6882	"22-MAY-2013"	"sheep"	"Belgium"	"Jan-2012"	-1	"Na1-CNS"	"Na1"	"L"	"-1"	"RNA-dependent RNA polymerase"	1	"-1"	FALSE	"28..6792"	3
+"Lab|Germany|2011|Germany|Oct-2011|2011.7863"	"JX853179"	6882	"23-JAN-2013"	"-1"	"Germany"	"Oct-2011"	-1	"Germany"	"-1"	"L"	"RDRP"	"RdRp"	1	"-1"	FALSE	"28..6792"	3
+"Cattle|Germany|2011|BH80/11-4|2011|2011.4521"	"HE649912"	6864	"26-MAR-2012"	"Bos taurus"	"Germany:North Rhine-Westphalia, Schmallenberg"	"2011"	-1	"BH80/11-4"	"-1"	"L"	"RDRP"	"RNA-dependent RNA polymerase"	1	"-1"	FALSE	"16..6780"	3

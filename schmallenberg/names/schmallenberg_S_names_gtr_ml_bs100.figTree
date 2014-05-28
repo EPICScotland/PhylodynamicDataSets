@@ -1,0 +1,125 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=33;
+	taxlabels
+	'Sheep|Germany|2012|BH37/12-2|Jan-2012|2012.0384'[&!color=#-16737793]
+	'Sheep|Germany|2011|BH02/12-1|Nov-2011|2011.8712'[&!color=#-16737793]
+	'Cattle|Germany|2011|BH80/11-4|2011|2011.4521'[&!color=#-3381760]
+	'Cattle|Germany|2012|BH248/12-1|Feb-2012|2012.1233'[&!color=#-3381760]
+	'Sheep|Germany|2012|BH336/12-3|Mar-2012|2012.2000'[&!color=#-16737793]
+	'Sheep|Germany|2012|BH619/12-1|Sep-2012|2012.7041'[&!color=#-16737793]
+	'Cattle|Germany|2012|BH635/12-2|Aug-2012|2012.6192'[&!color=#-3381760]
+	'Cattle|Germany|2012|BH652/12-1|Oct-2012|2012.7863'[&!color=#-3381760]
+	'Cattle|Netherlands|2011|F6|2011|2011.4521'[&!color=#-3381760]
+	'Sheep|Germany|2012|BH200/12-2|Jan-2012|2012.0384'[&!color=#-16737793]
+	'Sheep|Germany|2012|BH198/12-5|Jan-2012|2012.0384'[&!color=#-16737793]
+	'Sheep|Germany|2012|BH148/12-9|Jan-2012|2012.0384'[&!color=#-16737793]
+	'Sheep|Germany|2012|BH77/12-1|Jan-2012|2012.0384'[&!color=#-16737793]
+	'Goat|Germany|2012|BH233/12-1|Jan-2012|2012.0384'[&!color=#-16776961]
+	'Sheep|Germany|2012|BH231/12-1|Jan-2012|2012.0384'[&!color=#-16737793]
+	'Lab|Germany|2011|Germany|Oct-2011|2011.7863'
+	'Sheep|Germany|2012|BH199/12-5|Jan-2012|2012.0384'[&!color=#-16737793]
+	'Sheep|Germany|2012|BH197/12-3|Jan-2012|2012.0384'[&!color=#-16737793]
+	'Sheep|Germany|2012|BH174/12-2|Jan-2012|2012.0384'[&!color=#-16737793]
+	'Sheep|Germany|2012|BH127/12-16|Jan-2012|2012.0384'[&!color=#-16737793]
+	'Cattle|Germany|2012|BH250/12-2|Feb-2012|2012.1233'[&!color=#-3381760]
+	'Sheep|Belgium|2012|Na2-CNS|Jan-2012|2012.0384'[&!color=#-16737793]
+	'Sheep|Belgium|2012|Na2-BHK21-P2|Jan-2012|2012.0384'[&!color=#-16737793]
+	'Sheep|Belgium|2012|Na2-BHK21-P10|Jan-2012|2012.0384'[&!color=#-16737793]
+	'Sheep|Belgium|2012|Na1-BHK21-P2|Jan-2012|2012.0384'[&!color=#-16737793]
+	'Sheep|Belgium|2012|Na1-CNS|Jan-2012|2012.0384'[&!color=#-16737793]
+	'Sheep|Belgium|2012|Na1-BHK21-P10|Jan-2012|2012.0384'[&!color=#-16737793]
+	'Sheep|Germany|2012|BH03/12-3|Jan-2012|2012.0384'[&!color=#-16737793]
+	'Sheep|Germany|2012|BH59/12-8|Jan-2012|2012.0384'[&!color=#-16737793]
+	'Sheep|Netherlands|2011|HL1|2011|2011.4521'[&!color=#-16737793]
+	'Sheep|Germany|2012|BH237/12-4|Feb-2012|2012.1233'[&!color=#-16737793]
+	'Sheep|Germany|2012|BH28/12-5|Jan-2012|2012.0384'[&!color=#-16737793]
+	'Sheep|Germany|2012|BH336/12-1|Mar-2012|2012.2000'[&!color=#-16737793]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((((((((((('Sheep|Germany|2012|BH37/12-2|Jan-2012|2012.0384'[&!color=#-16737793]:0.0,'Sheep|Germany|2011|BH02/12-1|Nov-2011|2011.8712'[&!color=#-16737793]:0.00142448)[&bootstrap=0.64,!color=#-16737793]:0.0014269,'Cattle|Germany|2011|BH80/11-4|2011|2011.4521'[&!color=#-3381760]:0.0)[&bootstrap=0.03,!color=#-3381760]:0.0,'Cattle|Germany|2012|BH248/12-1|Feb-2012|2012.1233'[&!color=#-3381760]:0.0)[&bootstrap=0.0,!color=#-3381760]:0.0,'Sheep|Germany|2012|BH336/12-3|Mar-2012|2012.2000'[&!color=#-16737793]:0.0)[&bootstrap=0.0,!color=#-16737793]:0.0,'Sheep|Germany|2012|BH619/12-1|Sep-2012|2012.7041'[&!color=#-16737793]:0.0)[&bootstrap=0.0,!color=#-16737793]:0.0,'Cattle|Germany|2012|BH635/12-2|Aug-2012|2012.6192'[&!color=#-3381760]:0.0)[&bootstrap=0.0,!color=#-3381760]:0.0,'Cattle|Germany|2012|BH652/12-1|Oct-2012|2012.7863'[&!color=#-3381760]:0.0)[&bootstrap=0.0,!color=#-3381760]:0.0,'Cattle|Netherlands|2011|F6|2011|2011.4521'[&!color=#-3381760]:0.0)[&bootstrap=0.0,!color=#-3381760]:0.0,((('Sheep|Germany|2012|BH200/12-2|Jan-2012|2012.0384'[&!color=#-16737793]:0.00285422,'Sheep|Germany|2012|BH198/12-5|Jan-2012|2012.0384'[&!color=#-16737793]:0.00285772)[&bootstrap=0.07,!color=#-16737793]:0.0,('Sheep|Germany|2012|BH148/12-9|Jan-2012|2012.0384'[&!color=#-16737793]:0.00285747,'Sheep|Germany|2012|BH77/12-1|Jan-2012|2012.0384'[&!color=#-16737793]:0.00285772)[&bootstrap=0.09,!color=#-16737793]:0.0)[&bootstrap=0.0,!color=#-16737793]:0.0,('Goat|Germany|2012|BH233/12-1|Jan-2012|2012.0384'[&!color=#-16776961]:0.00285581,'Sheep|Germany|2012|BH231/12-1|Jan-2012|2012.0384'[&!color=#-16737793]:0.00286254)[&bootstrap=0.07,!color=#-16737793]:0.0)[&bootstrap=0.0,!color=#-16737793]:0.0)[&bootstrap=0.0,!color=null]:0.0,'Lab|Germany|2011|Germany|Oct-2011|2011.7863'[&!color=null]:0.0)[&bootstrap=0.39,!color=#-16737793]:5.56E-6,((((((('Sheep|Germany|2012|BH199/12-5|Jan-2012|2012.0384'[&!color=#-16737793]:0.00142593,'Sheep|Germany|2012|BH197/12-3|Jan-2012|2012.0384'[&!color=#-16737793]:0.00285837)[&bootstrap=0.02,!color=#-16737793]:0.0,('Sheep|Germany|2012|BH174/12-2|Jan-2012|2012.0384'[&!color=#-16737793]:0.0,'Sheep|Germany|2012|BH127/12-16|Jan-2012|2012.0384'[&!color=#-16737793]:0.00285972)[&bootstrap=0.01,!color=#-16737793]:0.0)[&bootstrap=0.0,!color=#-16737793]:0.0,'Cattle|Germany|2012|BH250/12-2|Feb-2012|2012.1233'[&!color=#-3381760]:0.0)[&bootstrap=0.0,!color=#-16737793]:0.0,'Sheep|Belgium|2012|Na2-CNS|Jan-2012|2012.0384'[&!color=#-16737793]:0.0)[&bootstrap=0.0,!color=#-16737793]:0.0,'Sheep|Belgium|2012|Na2-BHK21-P2|Jan-2012|2012.0384'[&!color=#-16737793]:0.0)[&bootstrap=0.0,!color=#-16737793]:0.0,'Sheep|Belgium|2012|Na2-BHK21-P10|Jan-2012|2012.0384'[&!color=#-16737793]:0.0)[&bootstrap=0.0,!color=#-16737793]:0.0,((((('Sheep|Belgium|2012|Na1-BHK21-P2|Jan-2012|2012.0384'[&!color=#-16737793]:0.0,'Sheep|Belgium|2012|Na1-CNS|Jan-2012|2012.0384'[&!color=#-16737793]:0.0)[&bootstrap=0.34,!color=#-16737793]:0.0,'Sheep|Belgium|2012|Na1-BHK21-P10|Jan-2012|2012.0384'[&!color=#-16737793]:0.0)[&bootstrap=0.81,!color=#-16737793]:0.00285837,'Sheep|Germany|2012|BH03/12-3|Jan-2012|2012.0384'[&!color=#-16737793]:0.0)[&bootstrap=0.03,!color=#-16737793]:0.0,'Sheep|Germany|2012|BH59/12-8|Jan-2012|2012.0384'[&!color=#-16737793]:0.0)[&bootstrap=0.0,!color=#-16737793]:0.0,'Sheep|Netherlands|2011|HL1|2011|2011.4521'[&!color=#-16737793]:0.00285806)[&bootstrap=0.0,!color=#-16737793]:0.0)[&bootstrap=0.39,!color=#-16737793]:0.00142582)[&bootstrap=0.57,!color=#-16737793]:7.108E-4,(('Sheep|Germany|2012|BH237/12-4|Feb-2012|2012.1233'[&!color=#-16737793]:0.0,'Sheep|Germany|2012|BH28/12-5|Jan-2012|2012.0384'[&!color=#-16737793]:0.00285702)[&bootstrap=0.51,!color=#-16737793]:0.00142515,'Sheep|Germany|2012|BH336/12-1|Mar-2012|2012.2000'[&!color=#-16737793]:5.41E-6)[&bootstrap=0.57,!color=#-16737793]:7.1418E-4)[&!color=#-16737793];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#-1;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#-16777216;
+	set appearance.selectionColour=#-2144520576;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="bootstrap";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="bootstrap";
+	set nodeLabels.fontName="Arial";
+	set nodeLabels.fontSize=10;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute="User selection";
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=true;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
