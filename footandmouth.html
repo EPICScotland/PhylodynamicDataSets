@@ -1,0 +1,276 @@
+<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<head>
+	<title>Phylodynamic Datasets</title>
+	<meta name = "keywords" content = "phylogenetics,phylogeography,phylodynamics,pathogens,livestock,sequences,epic,scotland" >
+	<meta name = "description" content = "Academic Research and data in Virus and Bacteria Evolution and Modelling" >
+	<meta http-equiv = "Content-Type" content = "text/html; charset = ISO-8859-1" >
+	<LINK REL=StyleSheet HREF="style.css" TYPE="text/css" MEDIA=screen>	
+</head>
+
+
+
+	<div id = "page">
+		<div id = "nav">
+		
+        <a href = "http://epicscotland.github.io/index.html">Home</a>
+        <a href = "index.html">Phylodynamics</a>
+        <a href = "data.html">Data</a>
+        <a href = "links.html">Links</a>
+
+		
+		</div>
+	
+
+		<br>
+
+		<div id = "content">
+		
+
+		<center><h1>Foot and Mouth Disease Virus</h1></center>
+
+		<h1>Genome</h1>
+
+		<p>The Foot and Mouth Disease Virus (FMDV) is an Picornavirus with an single stranded RNA genome, encoding for one polyprotein.  
+		The polyprotein is post-translationally processed into individual proteins, including the surface protein VP1.<br>
+		See <a href = "http://viralzone.expasy.org/viralzone/all_by_species/98.html">http://viralzone.expasy.org/viralzone/all_by_species/98.html</a></p>
+
+		<p>There are seven main serotypes of FMDV; the Eurasian serotypes are A, C, O and Asia1, and the South African Territories serotypes are SAT1, SAT2, SAT3.</p>
+
+
+
+
+		<h1>Sequences</h1>
+
+		<h2>FMDV Database</h2>
+
+		<p>There is a sequence database at Pirbright (last updated 2010) 
+		<a href="http://www.wrlfmd.org/fmdv_seqs/fmdv_seq.htm">http://www.wrlfmd.org/fmdv_seqs/fmdv_seq.htm</a><br>
+		this has details of individual serotypes, complete genomes and VP1 sequences</p>
+
+		<h2>Complete Genomes</h2>
+
+		<p>Carrillo et al performed a study of whole genome FMDV sequences:
+		<br>Carrillo et al (2005) "Comparative Genomics of Foot-and-Mouth Disease Virus" <i>J. Virol.</i>May 2005 <b>79</b>(10):6487-6504 
+		<a href = "http://jvi.asm.org/content/79/10/6487">doi: 10.1128/JVI.79.10.6487-6504.2005</a>
+		<br>Phylogenetic trees for different regions of the genome, in 
+		<a href = "http://jvi.asm.org/content/79/10/6487/F4.large.jpg">Figure 4</a>
+		<br>The published genome set is on GenBank (see table 1): 
+		<a href = "http://www.ncbi.nlm.nih.gov/popset?DbFrom=nuccore&Cmd=Link&LinkName=nuccore_popset&IdsFromResult=46810794">PopSet: 46810758</a>
+
+		<p><b>Table 1: Carrillo 2005 - 103 Genome Set (renamed)</b>
+		<TABLE ALIGNMENT="top" cellpadding=5 border=1>
+		<TR>
+		<TD><b>Serotype<TD><b>Length<TD><b>Num.Seqs.<TD><b>FASTA</b></TD>
+		</TR>
+
+		<TR>
+		<TD>All
+		<TD>8162
+		<TD>103
+		<TD><a href = "footandmouth//carrillo_2005//carrillo_2005_nucls_al.fas">Full Genomes</a>
+		</TR>
+		</TABLE>
+		
+		
+
+		<h2>VP1</h2>
+
+
+		<p>FMDV sequences from were downloaded from GenBank on 28th May 2014.  
+		Initial processing to extract the VP1 sequences was performed using a custom R script 
+		<a href="rscripts/epic_process_background_seqs_fmdv.R">epic_process_background_seqs_fmdv.R</a>, sequences shorter than 500 nucleotides were excluded,
+		followed by some manual editting of the sequence files.</p>
+
+		<p>Nucleotide sequences (fasta format) were translated to amino acids for alignment using MUSCLE in MEGA 5.</p>
+		<p>Neighbour joining trees (newick format) were created in MEGA with the TN93 model, pairwise deletetion, and heterogenous rates between sites and lineages.<br>
+		
+		<p><b>Table 1: VP1 with GenBank accession numbers as names</b> - <a href = "footandmouth//accessionNames//fmdv_VP1_process_info_long.txt">VP1 Sequence information all serotypes</a>
+		<br>
+		<TABLE ALIGNMENT="top" cellpadding=5 border=1>
+		<TR>
+		<TD><b>Serotype<TD><b>Length<TD><b>Num.Seqs.<TD><b>FASTA</b></TD>
+		</TR>
+		 
+		<TR>
+		<TD>A
+		<TD>686
+		<TD>677
+		<TD><a href="footandmouth//accessionNames//fmdv_VP1_seroA_accns_al.fas">A seqs</a>
+		</TR>
+
+		<TR>
+		<TD>Asia1
+		<TD>633
+		<TD>226
+		<TD><a href="footandmouth//accessionNames//fmdv_VP1_seroAsia1_accns_al.fas">Asia1 seqs</a>
+		</TR>
+
+		<TR>
+		<TD>C
+		<TD>636
+		<TD>29
+		<TD><a href="footandmouth//accessionNames//fmdv_VP1_seroC_accns_al.fas">A seqs</a>
+		</TR>
+
+		<TR>
+		<TD>O
+		<TD>642
+		<TD>1203
+		<TD><a href="footandmouth//accessionNames//fmdv_VP1_seroO_accns_al.fas">O seqs</a>
+		</TR>
+
+		<TR>
+		<TD>SAT1
+		<TD>663
+		<TD>38
+		<TD><a href="footandmouth//accessionNames//fmdv_VP1_seroSAT1_accns_al.fas">SAT1 seqs</a>
+		</TR>
+
+		<TR>
+		<TD>SAT2
+		<TD>648
+		<TD>225
+		<TD><a href="footandmouth//accessionNames//fmdv_VP1_seroSAT2_accns_al.fas">SAT2 seqs</a>
+		</TR>
+
+		<TR>
+		<TD>SAT3
+		<TD>654
+		<TD>4
+		<TD><a href="footandmouth//accessionNames//fmdv_VP1_seroSAT3_accns_al.fas">SAT3 seqs</a>
+		</TR>
+
+		</TABLE>
+
+
+
+		<p><b>Table 2: Individual serotpyes with names in format Host|Country|Year|Strain|Date|DecimalDate for sequences with complete details</b><br>
+		Note the smaller number of sequences than above due to the incomplete annotation in GenBank.<br>
+		<TABLE ALIGNMENT="top" cellpadding=5 border=1>
+		<TR>
+		<TD><b>Segment<TD><b>Length<TD><b>Num.Seqs.<TD><b>FASTA<TD><b>NJ Tree<TD><b>Strain Information</b>
+		</TR>
+		 
+		<TR>
+		<TD>A
+		<TD>686
+		<TD>494
+		<TD><a href="footandmouth//names//fmdv_VP1_seroA_selected_names.fas">A seqs</a>
+		<TD><a href="footandmouth//names//fmdv_VP1_seroA_selected_names_tn93_nj.nwk">TN93 NJ Tree</a>
+		<TD><a href="footandmouth//names//fmdv_VP1_seroA_selected_names_sequenceInformation.txt">Info table</a>
+		</TR>
+
+		<TR>
+		<TD>Asia1
+		<TD>633
+		<TD>166
+		<TD><a href="footandmouth//names//fmdv_VP1_seroAsia1_selected_names.fas">Asia1 seqs</a>
+		<TD><a href="footandmouth//names//fmdv_VP1_seroAsia1_selected_names_tn93_nj.nwk">TN93 NJ Tree</a>
+		<TD><a href="footandmouth//names//fmdv_VP1_seroAsia1_selected_names_sequenceInformation.txt">Info table</a>
+		</TR>
+
+		<TR>
+		<TD>C
+		<TD>636
+		<TD>2
+		<TD><a href="footandmouth//names//fmdv_VP1_seroC_selected_names.fas">A seqs</a>
+		<TD>-
+		<TD><a href="footandmouth//names//fmdv_VP1_seroC_selected_names_sequenceInformation.txt">Info table</a>
+		</TR>
+
+		<TR>
+		<TD>O
+		<TD>642
+		<TD>779
+		<TD><a href="footandmouth//names//fmdv_VP1_seroO_selected_names.fas">O seqs</a>
+		<TD><a href="footandmouth//names//fmdv_VP1_seroO_selected_names_tn93_nj.nwk">TN93 NJ Tree</a>
+		<TD><a href="footandmouth//names//fmdv_VP1_seroO_selected_names_sequenceInformation.txt">Info table</a>
+		</TR>
+
+		<TR>
+		<TD>SAT1
+		<TD>663
+		<TD>38
+		<TD><a href="footandmouth//names//fmdv_VP1_seroSAT1_selected_names.fas">SAT1 seqs</a>
+		<TD><a href="footandmouth//names//fmdv_VP1_seroSAT1_selected_names_tn93_nj.nwk">TN93 NJ Tree</a>
+		<TD><a href="footandmouth//names//fmdv_VP1_seroSAT1_selected_names_sequenceInformation.txt">Info table</a>
+		</TR>
+
+		<TR>
+		<TD>SAT2
+		<TD>648
+		<TD>167
+		<TD><a href="footandmouth//names//fmdv_VP1_seroSAT2_selected_names.fas">SAT2 seqs</a>
+		<TD><a href="footandmouth//names//fmdv_VP1_seroSAT2_selected_names_tn93_nj.nwk">TN93 NJ Tree</a>
+		<TD><a href="footandmouth//names//fmdv_VP1_seroSAT2_selected_names_sequenceInformation.txt">Info table</a>
+		</TR>
+
+		<TR>
+		<TD>SAT3
+		<TD>654
+		<TD>4
+		<TD><a href="footandmouth//names//fmdv_VP1_seroSAT3_selected_names.fas">SAT3 seqs</a>
+		<TD>-
+		<TD><a href="footandmouth//names//fmdv_VP1_seroSAT3_selected_names_sequenceInformation.txt">Info table</a>
+		</TR>
+
+		</TABLE>
+
+		
+		<br>
+
+		<p><b>Figures: Maximum Likelihood trees (GTR + gamma distributed rates between sites, and 100 bootstraps) of the three segments.</b><br>
+		Taxa are coloured according to host type, Sheep = pale blue, Goat = dark blue, Cattle = brown, Lab = black<br>
+		Click to zoom.<br><br>
+		<TABLE cellpadding=10>
+		<TR><TD>Segment S<TD>Segment M<TD>Segment L</TR>
+		<TR>
+		<TD align="CENTER"><a href = "schmallenberg//names//schmallenberg_S_names_gtr_ml_bs100_figTree.png"><img src="schmallenberg//names//schmallenberg_S_names_gtr_ml_bs100_figTree.png" height=200></a>
+		<TD align="CENTER"><a href = "schmallenberg//names//schmallenberg_M_names_gtr_ml_bs100_figTree.png"><img src="schmallenberg//names//schmallenberg_M_names_gtr_ml_bs100_figTree.png" height=200></a>
+		<TD align="CENTER"><a href = "schmallenberg//names//schmallenberg_L_names_gtr_ml_bs100_figTree.png"><img src="schmallenberg//names//schmallenberg_L_names_gtr_ml_bs100_figTree.png" height=200></a>
+		</TR>
+		<TR>
+		<TD align="CENTER"><a href = "schmallenberg//names//schmallenberg_S_names_gtr_ml_bs100.figTree">S FigTree File</a>
+		<TD align="CENTER"><a href = "schmallenberg//names//schmallenberg_M_names_gtr_ml_bs100.figTree">M FigTree File</a>
+		<TD align="CENTER"><a href = "schmallenberg//names//schmallenberg_L_names_gtr_ml_bs100.figTree">L FigTree File</a>
+		</TABLE>
+
+		</div>	
+
+		<hr/>
+
+		<div id = "footer">
+
+			<TABLE>
+			<TR>
+
+			<TD WIDTH=100>
+				<a href = "img/epiclogo_smaller.jpg">
+				<img src = "img/epiclogo_smaller.jpg" title = "EPIC Scotland" alt = "EPIC Scotland" width=100>
+				</a>
+			</TD>
+
+			<TD WIDTH=10></TD>
+			<TD VALIGN="top">	Dr S. J. Lycett<br>
+						Institute of Biodiversity, Animal Health and Comparative Medicine<br>
+						University of Glasgow<br>
+						Room 319, Jarrett Building, 464 Bearsden Road<br>
+						Glasgow, G61 1QH<br>						
+			</TABLE>
+
+
+			<p id="s1">
+				Copyright EPIC Scotland 2014
+			</p>
+
+		</div>
+
+	</div>
+</body>
+</html>
+
+
+
+
+
