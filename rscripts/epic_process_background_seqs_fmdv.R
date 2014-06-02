@@ -669,7 +669,186 @@ getNuclsFromGenBank <- function( rec ) {
 	}
 
 	
+###################################################################################
+###################################################################################
+# Get the Cottam 2006 data (full genomes)
+# GenBank Search term = fmdv ukg 2001 complete genome, 44 sequences
+
+	path		   <- "D://slycett//epic_data//BACKGROUND_SEQUENCES//FootAndMouthDiseaseVirus//"
+	path2		   <- "cottam_2006//"
+
+	# read GenBank records
+	name		   	<- "fmdv_ukg_2001_complete_genome_sequences_genBank_full"
+	gblines 		<- readLines( paste(path,path2,name,".gb",sep="") )
+	recordStarts 	<- grep("LOCUS",gblines)
+	nrec			<- length(recordStarts)
+	recordEnds		<- c(recordStarts[2:nrec]-1,length(gblines))
+
+	recs			<- vector("list",nrec)
+	for (i in 1:nrec) {
+		recs[[i]] <- gblines[ recordStarts[i]:recordEnds[i] ]
+	}
+
+	nCDS			<- unlist( lapply(recs, numberCDS) )
+	jj			<- which(nCDS > 1)
+
+	infos			<- lapply(recs, getGenBankInfo)
+	nels			<- length(infos[[1]])
+	header		<- rownames(infos[[1]])
+	infos 		<- matrix( unlist(infos), nels, length(infos))
+	infos			<- t(infos)
+	colnames(infos)	<- header
+	accns			<- infos[,1]
+	seros			<- infos[,which(header=="serotype")]
+	country		<- infos[,which(header=="country")]
+	country		<- apply(as.matrix(country), 1, getEl, ind=1, sep=":")
+	country		<- gsub(" ","", country)
+	strain		<- infos[,9]
 
 
+	# read details from Cottam 2006 Table 1
+	details	   <- read.table( paste(path,path2,"cottam_2006_table_1.csv",sep=""), sep=",", header=TRUE)
+	details_accns  <- gsub(" ","",paste(details[,1]))
+	details_year   <- as.integer(apply(as.matrix(details[,5]), 1, getEl, ind=3, sep="/"))
+	details_month  <- as.integer(apply(as.matrix(details[,5]), 1, getEl, ind=2, sep="/"))
+	details_day	   <- as.integer(apply(as.matrix(details[,5]), 1, getEl, ind=1, sep="/"))
+	decDates	   <- array(0, length(details_year))
+	for (i in 1:length(details_year)) {
+		decDates[i] <- calcDecimalDate(details_day[i], details_month[i], details_year[i])
+	}
+	decDatesTxt	   <- format(decDates, digits=8)
+
+	# make new sequence names - e.g. >DQ404180|Pig|Essex|Farm1|UKG/11/2001|19/02/2001|2001.1342
+	details_newNames <- paste(details_accns, details[,4], details[,6], 
+						paste("Farm",details[,2],sep=""), gsub("G ","G/",details[,3]), 
+						details[,5], decDatesTxt, sep="|")
+	details_newNames <- gsub(" ","", details_newNames)
+
+	# find these sequences in the download
+	minds		   <- match(details_accns, infos[,1])
+	all( details_accns == infos[minds,1] )
+	
+	# write to fasta file with new names
+	fname		   <- paste(path,path2,"cottam_2006_nucls.fas",sep="")
+	for (i in 1:length(details_accns)) {
+		res <- getNuclsFromGenBank( recs[[minds[i]]] )
+		if (res[1] == details_accns[i]) {
+			write( paste(">",details_newNames[i],sep=""), file=fname, append=(i>1) )
+			write( res[2], file=fname, append=TRUE)
+		} else {
+			print(paste("Problem with",i,details_accns[i],res[1]) )
+		}
+	}
+
+	##################
+	# read details from Cottam 2008 Table 1
+	path2		   <- "cottam_2008//"
+	details	   <- read.table( paste(path,path2,"cottam_2008_table_1.csv",sep=""), sep=",", header=TRUE)
+	details_accns  <- gsub(" ","",paste(details[,2]))
+	details_year   <- as.integer(apply(as.matrix(details[,4]), 1, getEl, ind=3, sep="/"))
+	details_month  <- as.integer(apply(as.matrix(details[,4]), 1, getEl, ind=2, sep="/"))
+	details_day	   <- as.integer(apply(as.matrix(details[,4]), 1, getEl, ind=1, sep="/"))
+	decDates	   <- array(0, length(details_year))
+	for (i in 1:length(details_year)) {
+		decDates[i] <- calcDecimalDate(details_day[i], details_month[i], details_year[i])
+	}
+	decDatesTxt	   <- format(decDates, digits=8)
+
+	
+
+	# make new sequence names
+	details_newNames1 <- paste(details_accns, details[,3], "UK", 
+						paste("Sample",details[,1],sep=""), sep="|")
+	details_newNames2 <- paste(details[,4],decDatesTxt,sep="|")
+
+	# find these sequences in the download
+	minds		   <- match(details_accns, infos[,1])
+	all( details_accns == infos[minds,1] )
+
+	details_newNames  <- paste(details_newNames1, infos[minds,9], details_newNames2, sep="|")
+	
+	# write to fasta file with new names
+	fname		   <- paste(path,path2,"cottam_2008_nucls.fas",sep="")
+	for (i in 1:length(details_accns)) {
+		res <- getNuclsFromGenBank( recs[[minds[i]]] )
+		if (res[1] == details_accns[i]) {
+			write( paste(">",details_newNames[i],sep=""), file=fname, append=(i>1) )
+			write( res[2], file=fname, append=TRUE)
+		} else {
+			print(paste("Problem with",i,details_accns[i],res[1]) )
+		}
+	}
 
 
+###################################################################################
+###################################################################################
+# Cottam 2008, the 2007 FMDV outbreak
+# genbank search term (UKG 2007) AND "Foot-and-mouth disease virus - type O"[porgn:__txid12118] 
+
+	path		   <- "D://slycett//epic_data//BACKGROUND_SEQUENCES//FootAndMouthDiseaseVirus//"
+	path2		   <- "cottam_fmdv_2007_outbreak//"
+
+	# read GenBank records
+	name		   	<- "fmdv_2007_sequences_genBank_full"
+	gblines 		<- readLines( paste(path,path2,name,".gb",sep="") )
+	recordStarts 	<- grep("LOCUS",gblines)
+	nrec			<- length(recordStarts)
+	recordEnds		<- c(recordStarts[2:nrec]-1,length(gblines))
+
+	recs			<- vector("list",nrec)
+	for (i in 1:nrec) {
+		recs[[i]] <- gblines[ recordStarts[i]:recordEnds[i] ]
+	}
+
+	nCDS			<- unlist( lapply(recs, numberCDS) )
+	jj			<- which(nCDS > 1)
+
+	infos			<- lapply(recs, getGenBankInfo)
+	nels			<- length(infos[[1]])
+	header		<- rownames(infos[[1]])
+	infos 		<- matrix( unlist(infos), nels, length(infos))
+	infos			<- t(infos)
+	colnames(infos)	<- header
+	accns			<- infos[,1]
+	seros			<- infos[,which(header=="serotype")]
+	country		<- infos[,which(header=="country")]
+	country		<- apply(as.matrix(country), 1, getEl, ind=1, sep=":")
+	country		<- gsub(" ","", country)
+	strain		<- infos[,8]
+
+
+	# read details from Cottam 2008 Table 1
+	details	   <- read.table( paste(path,path2,"cottam_2008_table_1.txt",sep=""), sep=",", header=TRUE)
+	details_accns  <- gsub(" ","",paste(details[,4]))
+	details_year   <- as.integer(apply(as.matrix(details[,2]), 1, getEl, ind=3, sep="/"))
+	details_month  <- as.integer(apply(as.matrix(details[,2]), 1, getEl, ind=2, sep="/"))
+	details_day	   <- as.integer(apply(as.matrix(details[,2]), 1, getEl, ind=1, sep="/"))
+	decDates	   <- array(0, length(details_year))
+	for (i in 1:length(details_year)) {
+		decDates[i] <- calcDecimalDate(details_day[i], details_month[i], details_year[i])
+	}
+	decDatesTxt	   <- format(decDates, digits=8)
+
+	minds		  <- match(details_accns, infos[,1])
+	host		  <- paste(details[,5])
+	host		  <- gsub("BOVINE","Cattle",host)
+	host		  <- gsub("OVINE","Sheep",host)
+
+	# make new sequence names
+	details_newNames <- paste(details_accns, host, "UK", 
+						paste("Holding-",details[,1],sep=""), details[,3], details[,2],decDatesTxt,sep="|")
+
+
+	# write to fasta file with new names
+	fname		   <- paste(path,path2,"fmdv_2007_nucls.fas",sep="")
+	for (i in 1:length(details_accns)) {
+		res <- getNuclsFromGenBank( recs[[minds[i]]] )
+		if (res[1] == details_accns[i]) {
+			write( paste(">",details_newNames[i],sep=""), file=fname, append=(i>1) )
+			write( res[2], file=fname, append=TRUE)
+		} else {
+			print(paste("Problem with",i,details_accns[i],res[1]) )
+		}
+	}
+
+	
