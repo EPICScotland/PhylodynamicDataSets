@@ -156,7 +156,7 @@
 "JQ924825"	"155|goat/India/0|IND/Goat/2010/16/HSR|0"	155	"JQ924825"	1637	"27-JUL-2012"	"JQ924825"	"goat"	"India: Hisar"	"0"	16	"IND/Goat/2010/16/HSR"	"Bluetongue virus 16"	"IND/Goat/2010/16/HSR"	6	"VP5"
 "KP821473"	"156|sheep/Israel/2001|ISR2001/18|Feb-2001"	156	"KP821473"	1637	"16-AUG-2015"	"KP821473"	"sheep"	"Israel: Yokneam"	"Feb-2001"	16	"ISR2001/18"	"Bluetongue virus 16"	"ISR2001/18"	6	"VP5"
 "KP821474"	"157|goat/Israel/2008|ISR2008/03|Oct-2008"	157	"KP821474"	1637	"16-AUG-2015"	"KP821474"	"goat"	"Israel: Ein Kamonim"	"Oct-2008"	16	"ISR2008/03"	"Bluetongue virus 16"	"ISR2008/03"	6	"VP5"
-"AJ586719"	"158|0/Pakistan/0|RSArrrr/16*|0"	158	"AJ586719"	1637	"31-MAY-2004"	"AJ586719"	"0"	"South Africa"	"0"	NA	"RSArrrr/16"	"Bluetongue virus 16"	"RSArrrr/16"	6	"outer capsid protein VP5"
+"AJ586719"	"158|0/Pakistan/0|RSArrrr/16*|0"	158	"AJ586719"	1637	"31-MAY-2004"	"AJ586719"	"0"	"South Africa"	"0"	16	"RSArrrr/16"	"Bluetongue virus 16"	"RSArrrr/16"	6	"outer capsid protein VP5"
 "KP821475"	"159|sheep/Pakistan/1960|RSAvvvv/16|Jun-1960"	159	"KP821475"	1637	"16-AUG-2015"	"KP821475"	"sheep"	"Pakistan: Hazara, West Pakistan"	"Jun-1960"	16	"RSAvvvv/16"	"Bluetongue virus 16"	"RSAvvvv/16"	6	"VP5"
 "KP821476"	"160|0/Turkey/2000|TUR2000/01|Jun-2000"	160	"KP821476"	1637	"16-AUG-2015"	"KP821476"	"0"	"Turkey: Seferihisar-Ismir"	"Jun-2000"	16	"TUR2000/01"	"Bluetongue virus 16"	"TUR2000/01"	6	"VP5"
 "AJ586694"	"161|0/Nigeria/1982|Nigeria|1982"	161	"AJ586694"	1637	"31-MAY-2004"	"AJ586694"	"0"	"Nigeria"	"0"	16	"NIG1982/10"	"Bluetongue virus 16"	"NIG1982/10"	6	"outer capsid protein VP5"
